@@ -12,6 +12,8 @@
 		B0EFC281202140FD006569E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC27F202140FD006569E5 /* Main.storyboard */; };
 		B0EFC283202140FD006569E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC282202140FD006569E5 /* Assets.xcassets */; };
 		B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC284202140FD006569E5 /* LaunchScreen.storyboard */; };
+		B0EFC28E202143DE006569E5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC28D202143DE006569E5 /* .gitignore */; };
+		B0EFC2902021442A006569E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC28F2021442A006569E5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B0EFC282202140FD006569E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0EFC285202140FD006569E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0EFC287202140FE006569E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EFC28D202143DE006569E5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B0EFC28F2021442A006569E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B0EFC282202140FD006569E5 /* Assets.xcassets */,
 				B0EFC284202140FD006569E5 /* LaunchScreen.storyboard */,
 				B0EFC287202140FE006569E5 /* Info.plist */,
+				B0EFC28D202143DE006569E5 /* .gitignore */,
+				B0EFC28F2021442A006569E5 /* README.md */,
 			);
 			path = Elderface;
 			sourceTree = "<group>";
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EFC28E202143DE006569E5 /* .gitignore in Resources */,
 				B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */,
+				B0EFC2902021442A006569E5 /* README.md in Resources */,
 				B0EFC283202140FD006569E5 /* Assets.xcassets in Resources */,
 				B0EFC281202140FD006569E5 /* Main.storyboard in Resources */,
 			);
