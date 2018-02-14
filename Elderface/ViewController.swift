@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import AVFoundation
+
+var audioPlayer: AVAudioPlayer!
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        playWelcomeAudio()
+    }
+    
+    // Play welcome audio file
+    func playWelcomeAudio() {
+        let path = Bundle.main.path(forResource: "welcome_to_elderface_full.wav", ofType:nil)!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        } catch let error {
+            NSLog(error.localizedDescription)
+        }
     }
 
     override func didReceiveMemoryWarning() {

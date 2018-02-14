@@ -30,6 +30,7 @@
 		B0CE12E92034FC5F00A3877B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E62034FC5F00A3877B /* welcome.wav */; };
 		B0CE12EA2034FC5F00A3877B /* tap_anywhere.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */; };
 		B0CE12EB2034FC5F00A3877B /* to_elderface.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E82034FC5F00A3877B /* to_elderface.wav */; };
+		B0CE12ED2034FF6A00A3877B /* welcome_to_elderface_full.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */; };
 		B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27B202140FD006569E5 /* AppDelegate.swift */; };
 		B0EFC27E202140FD006569E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27D202140FD006569E5 /* ViewController.swift */; };
 		B0EFC281202140FD006569E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC27F202140FD006569E5 /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 		B0CE12E62034FC5F00A3877B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
 		B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap_anywhere.wav; sourceTree = "<group>"; };
 		B0CE12E82034FC5F00A3877B /* to_elderface.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = to_elderface.wav; sourceTree = "<group>"; };
+		B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome_to_elderface_full.wav; sourceTree = "<group>"; };
 		B0EFC278202140FD006569E5 /* Elderface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elderface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EFC27B202140FD006569E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0EFC27D202140FD006569E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		B0CE12E52034FC2A00A3877B /* Instructions */ = {
 			isa = PBXGroup;
 			children = (
+				B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */,
 				B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */,
 				B0CE12E82034FC5F00A3877B /* to_elderface.wav */,
 				B0CE12E62034FC5F00A3877B /* welcome.wav */,
@@ -255,6 +258,7 @@
 				B0CE12D42034F5ED00A3877B /* Lato-MediumItalic.ttf in Resources */,
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
+				B0CE12ED2034FF6A00A3877B /* welcome_to_elderface_full.wav in Resources */,
 				B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */,
 				B0CE12D32034F5ED00A3877B /* Lato-Light.ttf in Resources */,
 				B0CE12E12034F5ED00A3877B /* Lato-SemiboldItalic.ttf in Resources */,
