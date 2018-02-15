@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B098C7D220361161001F3316 /* ElderfaceFieldValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */; };
 		B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */; };
 		B0CE12D12034F5ED00A3877B /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BD2034F5EA00A3877B /* Lato-Heavy.ttf */; };
 		B0CE12D22034F5ED00A3877B /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BE2034F5EA00A3877B /* Lato-HairlineItalic.ttf */; };
@@ -32,6 +33,7 @@
 		B0CE12EB2034FC5F00A3877B /* to_elderface.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E82034FC5F00A3877B /* to_elderface.wav */; };
 		B0CE12ED2034FF6A00A3877B /* welcome_to_elderface_full.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */; };
 		B0CE12F12035F8DB00A3877B /* welcome_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12F02035F8DA00A3877B /* welcome_background.png */; };
+		B0CE12F720360F8D00A3877B /* Elderface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE12F620360F8D00A3877B /* Elderface.swift */; };
 		B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27B202140FD006569E5 /* AppDelegate.swift */; };
 		B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27D202140FD006569E5 /* WelcomeViewController.swift */; };
 		B0EFC281202140FD006569E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC27F202140FD006569E5 /* Main.storyboard */; };
@@ -40,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderfaceFieldValues.swift; sourceTree = "<group>"; };
 		B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		B0CE12BD2034F5EA00A3877B /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
 		B0CE12BE2034F5EA00A3877B /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		B0CE12E82034FC5F00A3877B /* to_elderface.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = to_elderface.wav; sourceTree = "<group>"; };
 		B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome_to_elderface_full.wav; sourceTree = "<group>"; };
 		B0CE12F02035F8DA00A3877B /* welcome_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_background.png; sourceTree = "<group>"; };
+		B0CE12F620360F8D00A3877B /* Elderface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elderface.swift; sourceTree = "<group>"; };
 		B0EFC278202140FD006569E5 /* Elderface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elderface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EFC27B202140FD006569E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0EFC27D202140FD006569E5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B098C7D02036113F001F3316 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		B0CE12B92034F5C300A3877B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,14 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		B0CE12F420360F7300A3877B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE12F620360F8D00A3877B /* Elderface.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B0EFC26F202140FD006569E5 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +222,8 @@
 		B0EFC27A202140FD006569E5 /* Elderface */ = {
 			isa = PBXGroup;
 			children = (
+				B098C7D02036113F001F3316 /* Constants */,
+				B0CE12F420360F7300A3877B /* Classes */,
 				B0CE12F22035FA1900A3877B /* View Controllers */,
 				B0CE12F32035FA6000A3877B /* Storyboards */,
 				B0CE12B92034F5C300A3877B /* Assets */,
@@ -310,6 +332,8 @@
 			files = (
 				B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */,
 				B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */,
+				B0CE12F720360F8D00A3877B /* Elderface.swift in Sources */,
+				B098C7D220361161001F3316 /* ElderfaceFieldValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
