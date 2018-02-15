@@ -31,8 +31,9 @@
 		B0CE12EA2034FC5F00A3877B /* tap_anywhere.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */; };
 		B0CE12EB2034FC5F00A3877B /* to_elderface.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E82034FC5F00A3877B /* to_elderface.wav */; };
 		B0CE12ED2034FF6A00A3877B /* welcome_to_elderface_full.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */; };
+		B0CE12F12035F8DB00A3877B /* welcome_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12F02035F8DA00A3877B /* welcome_background.png */; };
 		B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27B202140FD006569E5 /* AppDelegate.swift */; };
-		B0EFC27E202140FD006569E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27D202140FD006569E5 /* ViewController.swift */; };
+		B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27D202140FD006569E5 /* WelcomeViewController.swift */; };
 		B0EFC281202140FD006569E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC27F202140FD006569E5 /* Main.storyboard */; };
 		B0EFC283202140FD006569E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC282202140FD006569E5 /* Assets.xcassets */; };
 		B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EFC284202140FD006569E5 /* LaunchScreen.storyboard */; };
@@ -63,9 +64,10 @@
 		B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap_anywhere.wav; sourceTree = "<group>"; };
 		B0CE12E82034FC5F00A3877B /* to_elderface.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = to_elderface.wav; sourceTree = "<group>"; };
 		B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome_to_elderface_full.wav; sourceTree = "<group>"; };
+		B0CE12F02035F8DA00A3877B /* welcome_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_background.png; sourceTree = "<group>"; };
 		B0EFC278202140FD006569E5 /* Elderface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elderface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EFC27B202140FD006569E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0EFC27D202140FD006569E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0EFC27D202140FD006569E5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B0EFC280202140FD006569E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0EFC282202140FD006569E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0EFC285202140FD006569E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		B0CE12B92034F5C300A3877B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B0EFC282202140FD006569E5 /* Assets.xcassets */,
+				B0CE12EE2035F8BD00A3877B /* Images */,
 				B0CE12E42034FC1F00A3877B /* Audio */,
 				B0CE12BA2034F5CA00A3877B /* Fonts */,
 			);
@@ -146,6 +150,39 @@
 			path = Instructions;
 			sourceTree = "<group>";
 		};
+		B0CE12EE2035F8BD00A3877B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE12EF2035F8C300A3877B /* Backgrounds */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B0CE12EF2035F8C300A3877B /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE12F02035F8DA00A3877B /* welcome_background.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		B0CE12F22035FA1900A3877B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0EFC27D202140FD006569E5 /* WelcomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B0CE12F32035FA6000A3877B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B0EFC27F202140FD006569E5 /* Main.storyboard */,
+				B0EFC284202140FD006569E5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		B0EFC26F202140FD006569E5 = {
 			isa = PBXGroup;
 			children = (
@@ -165,12 +202,10 @@
 		B0EFC27A202140FD006569E5 /* Elderface */ = {
 			isa = PBXGroup;
 			children = (
+				B0CE12F22035FA1900A3877B /* View Controllers */,
+				B0CE12F32035FA6000A3877B /* Storyboards */,
 				B0CE12B92034F5C300A3877B /* Assets */,
 				B0EFC27B202140FD006569E5 /* AppDelegate.swift */,
-				B0EFC27D202140FD006569E5 /* ViewController.swift */,
-				B0EFC27F202140FD006569E5 /* Main.storyboard */,
-				B0EFC282202140FD006569E5 /* Assets.xcassets */,
-				B0EFC284202140FD006569E5 /* LaunchScreen.storyboard */,
 				B0EFC287202140FE006569E5 /* Info.plist */,
 			);
 			path = Elderface;
@@ -255,6 +290,7 @@
 				B0CE12DA2034F5ED00A3877B /* Lato-Bold.ttf in Resources */,
 				B0EFC281202140FD006569E5 /* Main.storyboard in Resources */,
 				B0CE12E22034F5ED00A3877B /* Lato-Thin.ttf in Resources */,
+				B0CE12F12035F8DB00A3877B /* welcome_background.png in Resources */,
 				B0CE12D42034F5ED00A3877B /* Lato-MediumItalic.ttf in Resources */,
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
@@ -272,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0EFC27E202140FD006569E5 /* ViewController.swift in Sources */,
+				B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */,
 				B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
