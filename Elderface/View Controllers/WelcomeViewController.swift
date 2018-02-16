@@ -39,7 +39,18 @@ class WelcomeViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-
+    
+    // TODO
+    // Tap anywhere to begin is tapped
+//    @IBAction func welcomeTapped(_ sender: Any) {
+//
+//    }
+    
+    // TODO
+    // Preparing segue to enter name controller
+//    func prepareController(for segue: UIStoryboardSegue, sender: Any?) {
+//
+//    }
 
 }
 
