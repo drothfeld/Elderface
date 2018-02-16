@@ -22,9 +22,9 @@ let audio_speed_fast = 1
 let audio_speed_very_fast = 2
 
 // Menu Text Size
-let menu_text_small = 16
-let menu_text_normal = 45
-let menu_text_large = 112
+let menu_text_small = 25
+let menu_text_normal = 50
+let menu_text_large = 100
 
 // Screen Text Size
 let screen_text_small = 24

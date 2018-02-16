@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B00F7D2F2036B9A200D3E190 /* enter_name_fail.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */; };
+		B00F7D312036BCC600D3E190 /* TextSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D302036BCC600D3E190 /* TextSizeViewController.swift */; };
+		B00F7D332036C5AF00D3E190 /* text_size.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D322036C5AF00D3E190 /* text_size.wav */; };
 		B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025147A203697B80028D3FB /* EnterNameViewController.swift */; };
 		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
 		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name_fail.wav; sourceTree = "<group>"; };
+		B00F7D302036BCC600D3E190 /* TextSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeViewController.swift; sourceTree = "<group>"; };
+		B00F7D322036C5AF00D3E190 /* text_size.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = text_size.wav; sourceTree = "<group>"; };
 		B025147A203697B80028D3FB /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
 		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 				B05B5CE32036B4DE00391C5B /* enter_name.wav */,
 				B05B5CE42036B4DE00391C5B /* welcome.wav */,
 				B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */,
+				B00F7D322036C5AF00D3E190 /* text_size.wav */,
 			);
 			path = Instructions;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			children = (
 				B0EFC27D202140FD006569E5 /* WelcomeViewController.swift */,
 				B025147A203697B80028D3FB /* EnterNameViewController.swift */,
+				B00F7D302036BCC600D3E190 /* TextSizeViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 				B0CE12D52034F5ED00A3877B /* Lato-BoldItalic.ttf in Resources */,
 				B0CE12DB2034F5ED00A3877B /* README.txt in Resources */,
 				B0EFC283202140FD006569E5 /* Assets.xcassets in Resources */,
+				B00F7D332036C5AF00D3E190 /* text_size.wav in Resources */,
 				B0CE12DC2034F5ED00A3877B /* Lato-Hairline.ttf in Resources */,
 				B0CE12D92034F5ED00A3877B /* Lato-BlackItalic.ttf in Resources */,
 				B00F7D2F2036B9A200D3E190 /* enter_name_fail.wav in Resources */,
@@ -331,6 +338,7 @@
 			files = (
 				B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */,
 				B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */,
+				B00F7D312036BCC600D3E190 /* TextSizeViewController.swift in Sources */,
 				B0CE12F720360F8D00A3877B /* Elderface.swift in Sources */,
 				B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */,
 				B098C7D220361161001F3316 /* ElderfaceFieldValues.swift in Sources */,

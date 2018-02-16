@@ -47,6 +47,11 @@ class EnterNameViewController: UIViewController {
         validateTextField()
     }
     
+    // Continue button is pressed
+    @IBAction func continueButtonPressed(_ sender: Any) {
+        //TODO: Implement segue with Elderface object carried over
+    }
+    
     // Check text field value for validation
     func validateTextField() {
         NSLog(String(continueButtonIsAnimating))
