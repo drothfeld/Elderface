@@ -34,6 +34,30 @@ class TextSizeViewController: UIViewController {
         }
     }
     
+    // Prepare segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "menuPosition" {
+            let controller = segue.destination as! MenuPositionViewController
+            controller.userElderface = userElderface
+        }
+    }
+    
+    // Text size button is pressed
+    @IBAction func smallTextSizePressed(_ sender: Any) {
+        userElderface.menuTextSize = menu_text_small
+        performSegue(withIdentifier: "menuPosition", sender: self)
+    }
+    
+    @IBAction func normalTextSizePressed(_ sender: Any) {
+        userElderface.menuTextSize = menu_text_normal
+        performSegue(withIdentifier: "menuPosition", sender: self)
+    }
+    
+    @IBAction func largeTextSizePressed(_ sender: Any) {
+        userElderface.menuTextSize = menu_text_large
+        performSegue(withIdentifier: "menuPosition", sender: self)
+    }
+    
     // Hide status bar
     override var prefersStatusBarHidden: Bool {
         return true

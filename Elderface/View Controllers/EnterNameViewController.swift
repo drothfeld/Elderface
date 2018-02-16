@@ -58,7 +58,6 @@ class EnterNameViewController: UIViewController {
     
     // Continue button is pressed
     @IBAction func continueButtonPressed(_ sender: Any) {
-        //TODO: Implement segue with Elderface object carried into TextSizeViewController
         userElderface = Elderface(user: (EnterNameTextField.text)!)
         performSegue(withIdentifier: "textSize", sender: self)
     }
