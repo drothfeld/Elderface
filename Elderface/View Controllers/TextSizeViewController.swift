@@ -13,6 +13,7 @@ class TextSizeViewController: UIViewController {
     // UI Elements
     
     // Controller Elements
+    var userElderface: Elderface! = nil
     
     // Run on load
     override func viewDidLoad() {

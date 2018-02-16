@@ -16,6 +16,7 @@ class EnterNameViewController: UIViewController {
     
     // Controller Elements
     var continueButtonIsAnimating: Bool = false
+    var userElderface: Elderface! = nil
     
     // Run on load
     override func viewDidLoad() {
@@ -47,29 +48,35 @@ class EnterNameViewController: UIViewController {
         validateTextField()
     }
     
+    // Prepare segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "textSize" {
+            let controller = segue.destination as! TextSizeViewController
+            controller.userElderface = userElderface
+        }
+    }
+    
     // Continue button is pressed
     @IBAction func continueButtonPressed(_ sender: Any) {
-        //TODO: Implement segue with Elderface object carried over
+        //TODO: Implement segue with Elderface object carried into TextSizeViewController
+        userElderface = Elderface(user: (EnterNameTextField.text)!)
+        performSegue(withIdentifier: "textSize", sender: self)
     }
     
     // Check text field value for validation
     func validateTextField() {
-        NSLog(String(continueButtonIsAnimating))
         if (EnterNameTextField.text == nil || EnterNameTextField.text == "") {
-            NSLog("Text Field empty")
             ContinueButton.isEnabled = false
             continueButtonIsAnimating = false
             ContinueButton.backgroundColor = UIColor.white
             ContinueButton.stopAnimation()
             return
         } else {
-            NSLog("Text Field NOT Empty")
             if (continueButtonIsAnimating == false) {
                 ContinueButton.backgroundColor = UIColor.white
                 continueButtonIsAnimating = true
                 ContinueButton.startAnimation()
                 ContinueButton.isEnabled = true
-                
             }
             return
         }
