@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00F7D2F2036B9A200D3E190 /* enter_name_fail.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */; };
 		B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025147A203697B80028D3FB /* EnterNameViewController.swift */; };
+		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
+		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
 		B098C7D220361161001F3316 /* ElderfaceFieldValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */; };
 		B0AF15E32036A0E60026E9E8 /* welcome_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0AF15E22036A0E60026E9E8 /* welcome_background.png */; };
 		B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */; };
@@ -30,10 +33,6 @@
 		B0CE12E12034F5ED00A3877B /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12CD2034F5EC00A3877B /* Lato-SemiboldItalic.ttf */; };
 		B0CE12E22034F5ED00A3877B /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12CE2034F5EC00A3877B /* Lato-Thin.ttf */; };
 		B0CE12E32034F5ED00A3877B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12CF2034F5ED00A3877B /* OFL.txt */; };
-		B0CE12E92034FC5F00A3877B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E62034FC5F00A3877B /* welcome.wav */; };
-		B0CE12EA2034FC5F00A3877B /* tap_anywhere.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */; };
-		B0CE12EB2034FC5F00A3877B /* to_elderface.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12E82034FC5F00A3877B /* to_elderface.wav */; };
-		B0CE12ED2034FF6A00A3877B /* welcome_to_elderface_full.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */; };
 		B0CE12F720360F8D00A3877B /* Elderface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE12F620360F8D00A3877B /* Elderface.swift */; };
 		B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27B202140FD006569E5 /* AppDelegate.swift */; };
 		B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC27D202140FD006569E5 /* WelcomeViewController.swift */; };
@@ -43,7 +42,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name_fail.wav; sourceTree = "<group>"; };
 		B025147A203697B80028D3FB /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
+		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
 		B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderfaceFieldValues.swift; sourceTree = "<group>"; };
 		B0AF15E22036A0E60026E9E8 /* welcome_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_background.png; sourceTree = "<group>"; };
 		B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -66,10 +68,6 @@
 		B0CE12CD2034F5EC00A3877B /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		B0CE12CE2034F5EC00A3877B /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		B0CE12CF2034F5ED00A3877B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
-		B0CE12E62034FC5F00A3877B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
-		B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap_anywhere.wav; sourceTree = "<group>"; };
-		B0CE12E82034FC5F00A3877B /* to_elderface.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = to_elderface.wav; sourceTree = "<group>"; };
-		B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome_to_elderface_full.wav; sourceTree = "<group>"; };
 		B0CE12F620360F8D00A3877B /* Elderface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elderface.swift; sourceTree = "<group>"; };
 		B0EFC278202140FD006569E5 /* Elderface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elderface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EFC27B202140FD006569E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,10 +154,9 @@
 		B0CE12E52034FC2A00A3877B /* Instructions */ = {
 			isa = PBXGroup;
 			children = (
-				B0CE12EC2034FF6A00A3877B /* welcome_to_elderface_full.wav */,
-				B0CE12E72034FC5F00A3877B /* tap_anywhere.wav */,
-				B0CE12E82034FC5F00A3877B /* to_elderface.wav */,
-				B0CE12E62034FC5F00A3877B /* welcome.wav */,
+				B05B5CE32036B4DE00391C5B /* enter_name.wav */,
+				B05B5CE42036B4DE00391C5B /* welcome.wav */,
+				B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */,
 			);
 			path = Instructions;
 			sourceTree = "<group>";
@@ -298,16 +295,14 @@
 				B0CE12D12034F5ED00A3877B /* Lato-Heavy.ttf in Resources */,
 				B0CE12DF2034F5ED00A3877B /* Lato-Medium.ttf in Resources */,
 				B0CE12DD2034F5ED00A3877B /* Lato-HeavyItalic.ttf in Resources */,
-				B0CE12E92034FC5F00A3877B /* welcome.wav in Resources */,
 				B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */,
 				B0CE12D22034F5ED00A3877B /* Lato-HairlineItalic.ttf in Resources */,
 				B0CE12D52034F5ED00A3877B /* Lato-BoldItalic.ttf in Resources */,
 				B0CE12DB2034F5ED00A3877B /* README.txt in Resources */,
 				B0EFC283202140FD006569E5 /* Assets.xcassets in Resources */,
-				B0CE12EB2034FC5F00A3877B /* to_elderface.wav in Resources */,
 				B0CE12DC2034F5ED00A3877B /* Lato-Hairline.ttf in Resources */,
 				B0CE12D92034F5ED00A3877B /* Lato-BlackItalic.ttf in Resources */,
-				B0CE12EA2034FC5F00A3877B /* tap_anywhere.wav in Resources */,
+				B00F7D2F2036B9A200D3E190 /* enter_name_fail.wav in Resources */,
 				B0CE12E02034F5ED00A3877B /* Lato-Italic.ttf in Resources */,
 				B0CE12D82034F5ED00A3877B /* Lato-Semibold.ttf in Resources */,
 				B0CE12E32034F5ED00A3877B /* OFL.txt in Resources */,
@@ -319,10 +314,11 @@
 				B0CE12D42034F5ED00A3877B /* Lato-MediumItalic.ttf in Resources */,
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
-				B0CE12ED2034FF6A00A3877B /* welcome_to_elderface_full.wav in Resources */,
+				B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */,
 				B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */,
 				B0CE12D32034F5ED00A3877B /* Lato-Light.ttf in Resources */,
 				B0CE12E12034F5ED00A3877B /* Lato-SemiboldItalic.ttf in Resources */,
+				B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

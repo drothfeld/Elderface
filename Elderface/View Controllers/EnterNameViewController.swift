@@ -20,13 +20,13 @@ class EnterNameViewController: UIViewController {
     // Run on load
     override func viewDidLoad() {
         super.viewDidLoad()
-        //playEnterNameAudio()
+        playEnterNameAudio()
         validateTextField()
     }
     
     // Play enter name audio file
     func playEnterNameAudio() {
-        let path = Bundle.main.path(forResource: "enter_name_press_continue.wav", ofType:nil)!
+        let path = Bundle.main.path(forResource: "enter_name.wav", ofType:nil)!
         let url = URL(fileURLWithPath: path)
         
         do {

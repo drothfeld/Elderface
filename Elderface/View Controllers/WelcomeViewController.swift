@@ -24,7 +24,7 @@ class WelcomeViewController: UIViewController {
     
     // Play welcome audio file
     func playWelcomeAudio() {
-        let path = Bundle.main.path(forResource: "welcome_to_elderface_full.wav", ofType:nil)!
+        let path = Bundle.main.path(forResource: "welcome.wav", ofType:nil)!
         let url = URL(fileURLWithPath: path)
         
         do {
