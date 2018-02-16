@@ -34,6 +34,35 @@ class MenuPositionViewController: UIViewController {
         }
     }
     
+    // Prepare segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "menuColor" {
+            let controller = segue.destination as! MenuColorViewController
+            controller.userElderface = userElderface
+        }
+    }
+    
+    // Menu position button pressed
+    @IBAction func menuLeftButtonPressed(_ sender: Any) {
+        userElderface.menuPosition = menu_left
+        performSegue(withIdentifier: "menuColor", sender: self)
+    }
+    
+    @IBAction func menuRightButtonPressed(_ sender: Any) {
+        userElderface.menuPosition = menu_right
+        performSegue(withIdentifier: "menuColor", sender: self)
+    }
+    
+    @IBAction func menuBottomButtonPressed(_ sender: Any) {
+        userElderface.menuPosition = menu_bottom
+        performSegue(withIdentifier: "menuColor", sender: self)
+    }
+    
+    @IBAction func menuTopButtonPressed(_ sender: Any) {
+        userElderface.menuPosition = menu_top
+        performSegue(withIdentifier: "menuColor", sender: self)
+    }
+    
     // Hide status bar
     override var prefersStatusBarHidden: Bool {
         return true

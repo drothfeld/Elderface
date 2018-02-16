@@ -12,6 +12,8 @@
 		B00F7D332036C5AF00D3E190 /* text_size.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D322036C5AF00D3E190 /* text_size.wav */; };
 		B00F7D3520378C3C00D3E190 /* MenuPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D3420378C3C00D3E190 /* MenuPositionViewController.swift */; };
 		B00F7D37203791D600D3E190 /* menu_position.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D36203791D600D3E190 /* menu_position.wav */; };
+		B00F7D392037944C00D3E190 /* MenuColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D382037944C00D3E190 /* MenuColorViewController.swift */; };
+		B00F7D3B20379FD100D3E190 /* menu_color.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D3A20379FD100D3E190 /* menu_color.wav */; };
 		B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025147A203697B80028D3FB /* EnterNameViewController.swift */; };
 		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
 		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
@@ -51,6 +53,8 @@
 		B00F7D322036C5AF00D3E190 /* text_size.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = text_size.wav; sourceTree = "<group>"; };
 		B00F7D3420378C3C00D3E190 /* MenuPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPositionViewController.swift; sourceTree = "<group>"; };
 		B00F7D36203791D600D3E190 /* menu_position.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu_position.wav; sourceTree = "<group>"; };
+		B00F7D382037944C00D3E190 /* MenuColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuColorViewController.swift; sourceTree = "<group>"; };
+		B00F7D3A20379FD100D3E190 /* menu_color.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu_color.wav; sourceTree = "<group>"; };
 		B025147A203697B80028D3FB /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
 		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */,
 				B00F7D322036C5AF00D3E190 /* text_size.wav */,
 				B00F7D36203791D600D3E190 /* menu_position.wav */,
+				B00F7D3A20379FD100D3E190 /* menu_color.wav */,
 			);
 			path = Instructions;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				B025147A203697B80028D3FB /* EnterNameViewController.swift */,
 				B00F7D302036BCC600D3E190 /* TextSizeViewController.swift */,
 				B00F7D3420378C3C00D3E190 /* MenuPositionViewController.swift */,
+				B00F7D382037944C00D3E190 /* MenuColorViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
 				B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */,
+				B00F7D3B20379FD100D3E190 /* menu_color.wav in Resources */,
 				B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */,
 				B0CE12D32034F5ED00A3877B /* Lato-Light.ttf in Resources */,
 				B0CE12E12034F5ED00A3877B /* Lato-SemiboldItalic.ttf in Resources */,
@@ -346,6 +353,7 @@
 				B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */,
 				B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */,
 				B00F7D3520378C3C00D3E190 /* MenuPositionViewController.swift in Sources */,
+				B00F7D392037944C00D3E190 /* MenuColorViewController.swift in Sources */,
 				B00F7D312036BCC600D3E190 /* TextSizeViewController.swift in Sources */,
 				B0CE12F720360F8D00A3877B /* Elderface.swift in Sources */,
 				B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */,
