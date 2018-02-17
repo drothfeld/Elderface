@@ -35,12 +35,53 @@ class MenuColorViewController: UIViewController {
     }
     
     // Prepare segue
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "menuColor" {
-//            let controller = segue.destination as! MenuColorViewController
-//            controller.userElderface = userElderface
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "buttonColor" {
+            let controller = segue.destination as! ButtonColorViewController
+            controller.userElderface = userElderface
+        }
+    }
+    
+    // Menu Color Selection Buttons
+    @IBAction func menuColorBlackButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.black
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
+    
+    @IBAction func menuColorRedButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.red
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
+    
+    @IBAction func menuColorBlueButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.blue
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
+    
+    @IBAction func menuColorGreenButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.green
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
+    
+    @IBAction func menuColorMagentaButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.magenta
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
+    
+    @IBAction func menuColorPurpleButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.purple
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
+    
+    @IBAction func menuColorGrayButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.gray
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
+    
+    @IBAction func menuColorOrangeButton(_ sender: Any) {
+        userElderface.menuColor = UIColor.orange
+        performSegue(withIdentifier: "buttonColor", sender: self)
+    }
     
     // Hide status bar
     override var prefersStatusBarHidden: Bool {
