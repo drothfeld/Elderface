@@ -199,7 +199,22 @@ T</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7gD-jb-c0z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848.60907759882866" y="844.921875"/>
+            <point key="canvasLocation" x="137" y="844"/>
+        </scene>
+        <!--Text Color View Controller-->
+        <scene sceneID="72F-bO-U3x">
+            <objects>
+                <viewController id="Q6g-xo-Am3" customClass="TextColorViewController" customModule="Elderface" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8vs-qZ-kbw">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="p2D-vU-QA0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SeE-G3-AOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="1559"/>
         </scene>
         <!--Button Color View Controller-->
         <scene sceneID="2IF-dw-d8p">
@@ -208,13 +223,199 @@ T</string>
                     <view key="view" contentMode="scaleToFill" id="dLM-qK-WaB">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VWd-x8-Bfk" userLabel="View Button Color">
+                                <rect key="frame" x="0.0" y="271" width="1366" height="733"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Button Color" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3T-l8-ili" userLabel="Label Select Color">
+                                        <rect key="frame" x="-14" y="86" width="1395" height="131"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="100"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DaX-Dh-Bxh" userLabel="Image Menu Color Layer">
+                                        <rect key="frame" x="8" y="288" width="1350" height="343"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3N-UW-21y" userLabel="Button Magenta">
+                                        <rect key="frame" x="32" y="499" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="MAGENTA">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorMagenta:" destination="0rQ-60-HkE" eventType="touchUpInside" id="8fh-Kd-9qY"/>
+                                            <action selector="menuColorMagentaButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="8Mg-36-kXf"/>
+                                            <action selector="menuColorPinkButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="oN7-NI-ZJZ"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="fa8-cb-VIV"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="hH0-Gh-Xku"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1b-ZJ-Wvd" userLabel="Button Purple">
+                                        <rect key="frame" x="366" y="499" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="PURPLE">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorPurple:" destination="0rQ-60-HkE" eventType="touchUpInside" id="8Lc-dY-ecA"/>
+                                            <action selector="menuColorPurpleButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="ptM-Qd-siV"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="Tan-lq-84A"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="esw-a0-UFZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8a2-Qf-QDF" userLabel="Button Gray">
+                                        <rect key="frame" x="703" y="499" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="GRAY">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorGray:" destination="0rQ-60-HkE" eventType="touchUpInside" id="ewG-ab-fKN"/>
+                                            <action selector="menuColorGrayButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="KR5-PG-SRb"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="VMf-qM-S4F"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="UTZ-T1-kdv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODe-oW-uWR" userLabel="Button Orange">
+                                        <rect key="frame" x="1036" y="499" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="ORANGE">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorOrange:" destination="0rQ-60-HkE" eventType="touchUpInside" id="tJr-eD-AEF"/>
+                                            <action selector="menuColorOrangeButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="iKa-ry-ySZ"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="6Tf-d7-Ahb"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="Trp-kd-4du"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItI-zY-Yvd" userLabel="Button Black">
+                                        <rect key="frame" x="32" y="316" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="BLACK">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorBlack:" destination="0rQ-60-HkE" eventType="touchUpInside" id="oIn-TC-dlk"/>
+                                            <action selector="menuColorBlackButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="L8w-mG-8bH"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="A5P-Bt-cBH"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="l2U-DA-fho"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4H-Pa-LXQ" userLabel="Button Red">
+                                        <rect key="frame" x="367" y="316" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="RED">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorRed:" destination="0rQ-60-HkE" eventType="touchUpInside" id="efr-3i-z1x"/>
+                                            <action selector="menuColorRedButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="gPK-xh-c4b"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="BQQ-IH-LIv"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="GdH-7L-Mnw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yp-fK-ovf" userLabel="Button Blue">
+                                        <rect key="frame" x="704" y="316" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="BLUE">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorBlue:" destination="0rQ-60-HkE" eventType="touchUpInside" id="vfz-qq-Vxh"/>
+                                            <action selector="menuColorBlue:" destination="tR9-Jp-98M" eventType="touchUpInside" id="5Nm-zF-aLx"/>
+                                            <action selector="menuColorBlueButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="OfO-hm-TTT"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="ENH-NP-yyr"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="ofp-Fb-b4x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBL-Cs-KBs" userLabel="Button Green">
+                                        <rect key="frame" x="1037" y="316" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="GREEN">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonColorGreen:" destination="0rQ-60-HkE" eventType="touchUpInside" id="a01-mc-58Y"/>
+                                            <action selector="menuColorGreenButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="pFi-Zd-ute"/>
+                                            <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="8fJ-td-PJ9"/>
+                                            <segue destination="Q6g-xo-Am3" kind="show" identifier="textColor" id="t1r-4Z-6ls"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pKj-nO-fdz"/>
                     </view>
+                    <connections>
+                        <outlet property="menuColorLayer" destination="DaX-Dh-Bxh" id="c5e-lm-36z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4C-KM-HR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="849" y="1552"/>
+            <point key="canvasLocation" x="1569.8389458272327" y="843.75"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -375,7 +576,7 @@ T</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sy-Ww-qov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.60322108345534" y="844.921875"/>
+            <point key="canvasLocation" x="1570" y="134"/>
         </scene>
         <!--Menu Color View Controller-->
         <scene sceneID="ghL-0j-Ghh">
@@ -525,7 +726,6 @@ T</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="menuColorBlue:" destination="tR9-Jp-98M" eventType="touchUpInside" id="tK3-cf-gra"/>
                                             <action selector="menuColorBlueButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="83u-OC-WLx"/>
                                             <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="uFy-aO-gDu"/>
                                             <segue destination="0rQ-60-HkE" kind="show" identifier="buttonColor" id="iNM-M4-Nzn"/>
@@ -560,7 +760,7 @@ T</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9k-cK-CbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.60322108345534" y="1551.5625"/>
+            <point key="canvasLocation" x="849" y="844"/>
         </scene>
     </scenes>
     <resources>
@@ -569,6 +769,7 @@ T</string>
     <inferredMetricsTieBreakers>
         <segue reference="TOz-12-zqb"/>
         <segue reference="lzu-ke-ws0"/>
+        <segue reference="Trp-kd-4du"/>
         <segue reference="hem-oH-VTH"/>
     </inferredMetricsTieBreakers>
 </document>
