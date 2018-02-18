@@ -79,7 +79,7 @@ class MenuColorViewController: UIViewController {
     }
     
     @IBAction func menuColorOrangeButton(_ sender: Any) {
-        userElderface.menuColor = UIColor.orange
+        userElderface.menuColor = UIColor.white
         performSegue(withIdentifier: "buttonColor", sender: self)
     }
     

@@ -51,27 +51,27 @@
                                             <action selector="textFieldChanged:" destination="H6f-N3-XfL" eventType="editingChanged" id="nOF-eT-d17"/>
                                         </connections>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPg-X4-Qhf">
+                                        <rect key="frame" x="533" y="392" width="300" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="CONTINUE">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="continueButtonPressed:" destination="H6f-N3-XfL" eventType="touchUpInside" id="mZ7-zS-NR2"/>
+                                            <segue destination="2wZ-Jk-F0X" kind="show" identifier="textSize" id="U8p-nd-GQc"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPg-X4-Qhf">
-                                <rect key="frame" x="1046" y="904" width="300" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
-                                <state key="normal" title="CONTINUE">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="continueButtonPressed:" destination="H6f-N3-XfL" eventType="touchUpInside" id="mZ7-zS-NR2"/>
-                                    <segue destination="2wZ-Jk-F0X" kind="show" identifier="textSize" id="U8p-nd-GQc"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ndp-3W-sjk"/>
@@ -292,10 +292,10 @@ T</string>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGl-aO-3EN" userLabel="Text Orange">
                                         <rect key="frame" x="1036" y="499" width="300" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
-                                        <state key="normal" title="ORANGE">
-                                            <color key="titleColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="WHITE">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -506,10 +506,10 @@ T</string>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODe-oW-uWR" userLabel="Button Orange">
                                         <rect key="frame" x="1036" y="499" width="300" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
-                                        <state key="normal" title="ORANGE">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="WHITE">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -779,9 +779,13 @@ T</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G24-9t-5Cr">
-                                <rect key="frame" x="660" y="802" width="232" height="64"/>
+                                <rect key="frame" x="439" y="767" width="488" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="30"/>
+                                <state key="normal" title="DEBUG: PRESS HERE INSTEAD">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="H6f-N3-XfL" kind="show" id="PEK-dF-pxk"/>
                                 </connections>
@@ -984,10 +988,10 @@ T</string>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L41-we-xXI" userLabel="Button Menu Orange">
                                         <rect key="frame" x="1036" y="499" width="300" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
-                                        <state key="normal" title="ORANGE">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="WHITE">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1248,11 +1252,11 @@ T</string>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GO0-eQ-EiX" userLabel="Button Restart Elderface">
-                                                        <rect key="frame" x="183" y="40" width="335" height="70"/>
+                                                        <rect key="frame" x="126" y="40" width="448" height="70"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="30"/>
-                                                        <state key="normal" title="RESTART ELDERFACE">
+                                                        <state key="normal" title="RESTART ELDERFACE DEMO">
                                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
@@ -1266,7 +1270,7 @@ T</string>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cTb-7Z-gzm" userLabel="View Top Menu">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="112"/>
@@ -1280,7 +1284,7 @@ T</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MaY-ef-9LL" userLabel="Button Top FUNC_01">
-                                        <rect key="frame" x="274" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="276" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1289,7 +1293,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yL-o9-ioN" userLabel="Button Top FUNC_02">
-                                        <rect key="frame" x="491" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="493" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1298,7 +1302,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eb3-e6-OiT" userLabel="Button Top FUNC_03">
-                                        <rect key="frame" x="707" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="709" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1307,7 +1311,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2C8-o4-W36" userLabel="Button Top FUNC_04">
-                                        <rect key="frame" x="923" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="925" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1316,7 +1320,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4q-PF-tZb" userLabel="Button Top FUNC_05">
-                                        <rect key="frame" x="1139" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="1141" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1332,7 +1336,7 @@ T</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvA-Ly-fho" userLabel="Button Right FUNC_01">
-                                        <rect key="frame" x="0.0" y="174" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="174" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1341,7 +1345,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LM9-Qz-Z2Z" userLabel="Button Right FUNC_02">
-                                        <rect key="frame" x="0.0" y="275" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="275" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1350,7 +1354,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkS-NS-ZEN" userLabel="Button Right FUNC_03">
-                                        <rect key="frame" x="0.0" y="377" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="377" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1359,7 +1363,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0R-lV-hlQ" userLabel="Button Right FUNC_04">
-                                        <rect key="frame" x="0.0" y="478" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="478" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1368,7 +1372,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0z-Pg-xLt" userLabel="Button Right FUNC_05">
-                                        <rect key="frame" x="0.0" y="576" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="576" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1398,7 +1402,7 @@ T</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdz-OE-sPa" userLabel="Button Bottom FUNC_01">
-                                        <rect key="frame" x="274" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="276" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1407,7 +1411,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVb-Nl-Zpa" userLabel="Button Bottom FUNC_02">
-                                        <rect key="frame" x="491" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="493" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1416,7 +1420,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDc-8Q-ces" userLabel="Button Bottom FUNC_03">
-                                        <rect key="frame" x="707" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="709" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1425,7 +1429,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJX-Fh-3tG" userLabel="Button Bottom FUNC_04">
-                                        <rect key="frame" x="923" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="925" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1434,7 +1438,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38l-AW-3yq" userLabel="Button Bottom FUNC_05">
-                                        <rect key="frame" x="1139" y="26" width="200" height="60"/>
+                                        <rect key="frame" x="1141" y="11" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1457,7 +1461,7 @@ T</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F43-fU-GqX" userLabel="Button Left FUNC_01">
-                                        <rect key="frame" x="0.0" y="174" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="174" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1466,7 +1470,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehy-Eg-WLi" userLabel="Button Left FUNC_02">
-                                        <rect key="frame" x="0.0" y="275" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="275" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1475,7 +1479,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USB-3Q-yxO" userLabel="Button Left FUNC_03">
-                                        <rect key="frame" x="0.0" y="377" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="377" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1484,7 +1488,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mz7-Io-6yP" userLabel="Button Left FUNC_04">
-                                        <rect key="frame" x="0.0" y="478" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="478" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1493,7 +1497,7 @@ T</string>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymd-99-gwX" userLabel="Button Left FUNC_05">
-                                        <rect key="frame" x="0.0" y="576" width="200" height="60"/>
+                                        <rect key="frame" x="0.0" y="576" width="200" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
@@ -1508,10 +1512,42 @@ T</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nh2-gc-qep"/>
                     </view>
+                    <connections>
+                        <outlet property="ApplicationContentView" destination="gbB-qb-R0B" id="7rc-ik-YCR"/>
+                        <outlet property="BottomPositionButtonA" destination="Qdz-OE-sPa" id="vRk-sp-z8h"/>
+                        <outlet property="BottomPositionButtonB" destination="lVb-Nl-Zpa" id="DIT-AZ-whD"/>
+                        <outlet property="BottomPositionButtonC" destination="iDc-8Q-ces" id="042-Va-1Uy"/>
+                        <outlet property="BottomPositionButtonD" destination="hJX-Fh-3tG" id="nt0-nL-Zno"/>
+                        <outlet property="BottomPositionButtonE" destination="38l-AW-3yq" id="5eO-JC-AOd"/>
+                        <outlet property="BottomPositionMenu" destination="wmz-Ng-7xS" id="jlF-aW-6JV"/>
+                        <outlet property="BottomPositionUsername" destination="2P6-RP-FIZ" id="8Oc-M5-OlG"/>
+                        <outlet property="LeftPositionButtonA" destination="F43-fU-GqX" id="3O0-oh-NlB"/>
+                        <outlet property="LeftPositionButtonB" destination="Ehy-Eg-WLi" id="3u3-iu-I1e"/>
+                        <outlet property="LeftPositionButtonC" destination="USB-3Q-yxO" id="pBx-aW-xVN"/>
+                        <outlet property="LeftPositionButtonD" destination="Mz7-Io-6yP" id="1Nh-UU-6Ex"/>
+                        <outlet property="LeftPositionButtonE" destination="ymd-99-gwX" id="HOj-aY-6tb"/>
+                        <outlet property="LeftPositionMenu" destination="9s5-4a-sw6" id="btN-5i-ebH"/>
+                        <outlet property="LeftPositionUsername" destination="UV5-IL-Jnx" id="Y9J-IO-r8g"/>
+                        <outlet property="RestartElderfaceDemoButton" destination="GO0-eQ-EiX" id="1Ku-f5-aAv"/>
+                        <outlet property="RightPositionButtonA" destination="NvA-Ly-fho" id="Oqs-jO-5fr"/>
+                        <outlet property="RightPositionButtonB" destination="LM9-Qz-Z2Z" id="xh0-cr-LWd"/>
+                        <outlet property="RightPositionButtonC" destination="AkS-NS-ZEN" id="ghK-L2-P38"/>
+                        <outlet property="RightPositionButtonD" destination="H0R-lV-hlQ" id="NT7-QG-YIP"/>
+                        <outlet property="RightPositionButtonE" destination="H0z-Pg-xLt" id="L9b-oP-3jH"/>
+                        <outlet property="RightPositionMenu" destination="5bX-FY-Izd" id="zxv-as-yhI"/>
+                        <outlet property="RightPositionUsername" destination="pXO-Z6-qWz" id="Lo5-gd-4n3"/>
+                        <outlet property="TopPositionButtonA" destination="MaY-ef-9LL" id="5G7-i0-mGt"/>
+                        <outlet property="TopPositionButtonB" destination="2yL-o9-ioN" id="19w-LO-fFH"/>
+                        <outlet property="TopPositionButtonC" destination="eb3-e6-OiT" id="Jm2-rk-BDa"/>
+                        <outlet property="TopPositionButtonD" destination="2C8-o4-W36" id="pAT-v8-sNH"/>
+                        <outlet property="TopPositionButtonE" destination="Q4q-PF-tZb" id="O5k-7W-7fg"/>
+                        <outlet property="TopPositionMenu" destination="cTb-7Z-gzm" id="2iV-wy-muP"/>
+                        <outlet property="TopPositionUsername" destination="gsY-02-EYV" id="4Zq-bN-BRF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kBY-Np-K5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-511" y="2268"/>
+            <point key="canvasLocation" x="-511.27379209370423" y="2267.578125"/>
         </scene>
     </scenes>
     <resources>
@@ -1519,7 +1555,7 @@ T</string>
         <image name="welcome_background.png" width="2732" height="2048"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9sv-bJ-QMT"/>
+        <segue reference="3U1-Jb-0T3"/>
         <segue reference="26o-yi-Kw7"/>
         <segue reference="TOz-12-zqb"/>
         <segue reference="8JO-AB-0oT"/>

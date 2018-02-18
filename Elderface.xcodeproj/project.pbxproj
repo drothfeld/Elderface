@@ -31,6 +31,9 @@
 		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
 		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
 		B098C7D220361161001F3316 /* ElderfaceFieldValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */; };
+		B0A91ADA203A2AE200DD41B8 /* complete_fast.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0A91AD7203A2AE100DD41B8 /* complete_fast.wav */; };
+		B0A91ADB203A2AE200DD41B8 /* complete_slow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0A91AD8203A2AE100DD41B8 /* complete_slow.wav */; };
+		B0A91ADC203A2AE200DD41B8 /* complete_normal.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0A91AD9203A2AE200DD41B8 /* complete_normal.wav */; };
 		B0AF15E32036A0E60026E9E8 /* welcome_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0AF15E22036A0E60026E9E8 /* welcome_background.png */; };
 		B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */; };
 		B0CE12D12034F5ED00A3877B /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BD2034F5EA00A3877B /* Lato-Heavy.ttf */; };
@@ -85,6 +88,9 @@
 		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
 		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
 		B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderfaceFieldValues.swift; sourceTree = "<group>"; };
+		B0A91AD7203A2AE100DD41B8 /* complete_fast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete_fast.wav; sourceTree = "<group>"; };
+		B0A91AD8203A2AE100DD41B8 /* complete_slow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete_slow.wav; sourceTree = "<group>"; };
+		B0A91AD9203A2AE200DD41B8 /* complete_normal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete_normal.wav; sourceTree = "<group>"; };
 		B0AF15E22036A0E60026E9E8 /* welcome_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_background.png; sourceTree = "<group>"; };
 		B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		B0CE12BD2034F5EA00A3877B /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
@@ -213,6 +219,9 @@
 				B01BA0F520392D7700F83755 /* audio_fast.wav */,
 				B01BA0F620392D7700F83755 /* audio_normal.wav */,
 				B01BA0F720392D7700F83755 /* audio_slow.wav */,
+				B0A91AD7203A2AE100DD41B8 /* complete_fast.wav */,
+				B0A91AD9203A2AE200DD41B8 /* complete_normal.wav */,
+				B0A91AD8203A2AE100DD41B8 /* complete_slow.wav */,
 			);
 			path = Instructions;
 			sourceTree = "<group>";
@@ -358,14 +367,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01BA0FA20392D7800F83755 /* audio_slow.wav in Resources */,
+				B0A91ADA203A2AE200DD41B8 /* complete_fast.wav in Resources */,
 				B0CE12D12034F5ED00A3877B /* Lato-Heavy.ttf in Resources */,
 				B0CE12DF2034F5ED00A3877B /* Lato-Medium.ttf in Resources */,
+				B0A91ADC203A2AE200DD41B8 /* complete_normal.wav in Resources */,
 				B0CE12DD2034F5ED00A3877B /* Lato-HeavyItalic.ttf in Resources */,
 				B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */,
 				B01BA0F920392D7800F83755 /* audio_normal.wav in Resources */,
 				B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */,
 				B0CE12D22034F5ED00A3877B /* Lato-HairlineItalic.ttf in Resources */,
 				B0CE12D52034F5ED00A3877B /* Lato-BoldItalic.ttf in Resources */,
+				B0A91ADB203A2AE200DD41B8 /* complete_slow.wav in Resources */,
 				B0CE12DB2034F5ED00A3877B /* README.txt in Resources */,
 				B0EFC283202140FD006569E5 /* Assets.xcassets in Resources */,
 				B00F7D332036C5AF00D3E190 /* text_size.wav in Resources */,

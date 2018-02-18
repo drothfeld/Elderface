@@ -45,12 +45,6 @@ class WelcomeViewController: UIViewController {
 //    @IBAction func welcomeTapped(_ sender: Any) {
 //
 //    }
-    
-    // TODO
-    // Preparing segue to enter name controller
-//    func prepareController(for segue: UIStoryboardSegue, sender: Any?) {
-//
-//    }
 
 }
 

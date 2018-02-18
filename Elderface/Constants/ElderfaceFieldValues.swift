@@ -15,11 +15,11 @@ let menu_left = 3
 let menu_right = 4
 
 // Audio Speed
-let audio_speed_very_slow = -2
-let audio_speed_slow = -1
-let audio_speed_normal = 0
-let audio_speed_fast = 1
-let audio_speed_very_fast = 2
+let audio_speed_very_slow = 1
+let audio_speed_slow = 2
+let audio_speed_normal = 3
+let audio_speed_fast = 4
+let audio_speed_very_fast = 5
 
 // Menu Text Size
 let menu_text_small = 25

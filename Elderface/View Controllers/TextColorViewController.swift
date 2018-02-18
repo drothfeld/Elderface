@@ -104,7 +104,7 @@ class TextColorViewController: UIViewController {
     }
     
     @IBAction func orangeTextButtonPressed(_ sender: Any) {
-        userElderface.menuTextColor = UIColor.orange
+        userElderface.menuTextColor = UIColor.white
         performSegue(withIdentifier: "isOutlined", sender: self)
     }
     
