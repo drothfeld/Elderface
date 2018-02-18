@@ -18,6 +18,10 @@
 		B00F7D3F20389F7700D3E190 /* TextColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D3E20389F7700D3E190 /* TextColorViewController.swift */; };
 		B00F7D422038A21900D3E190 /* button_color.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D402038A21800D3E190 /* button_color.wav */; };
 		B00F7D432038A21900D3E190 /* text_color.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D412038A21800D3E190 /* text_color.wav */; };
+		B00F7D452038AD9700D3E190 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D442038AD9700D3E190 /* OutlineViewController.swift */; };
+		B00F7D472039043D00D3E190 /* AudioSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */; };
+		B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4820390B1A00D3E190 /* audio_speed.wav */; };
+		B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4920390B1A00D3E190 /* is_outlined.wav */; };
 		B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025147A203697B80028D3FB /* EnterNameViewController.swift */; };
 		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
 		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
@@ -63,6 +67,10 @@
 		B00F7D3E20389F7700D3E190 /* TextColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColorViewController.swift; sourceTree = "<group>"; };
 		B00F7D402038A21800D3E190 /* button_color.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button_color.wav; sourceTree = "<group>"; };
 		B00F7D412038A21800D3E190 /* text_color.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = text_color.wav; sourceTree = "<group>"; };
+		B00F7D442038AD9700D3E190 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
+		B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSpeedViewController.swift; sourceTree = "<group>"; };
+		B00F7D4820390B1A00D3E190 /* audio_speed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_speed.wav; sourceTree = "<group>"; };
+		B00F7D4920390B1A00D3E190 /* is_outlined.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = is_outlined.wav; sourceTree = "<group>"; };
 		B025147A203697B80028D3FB /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
 		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
@@ -182,6 +190,8 @@
 				B00F7D3A20379FD100D3E190 /* menu_color.wav */,
 				B00F7D402038A21800D3E190 /* button_color.wav */,
 				B00F7D412038A21800D3E190 /* text_color.wav */,
+				B00F7D4820390B1A00D3E190 /* audio_speed.wav */,
+				B00F7D4920390B1A00D3E190 /* is_outlined.wav */,
 			);
 			path = Instructions;
 			sourceTree = "<group>";
@@ -212,6 +222,8 @@
 				B00F7D382037944C00D3E190 /* MenuColorViewController.swift */,
 				B00F7D3C20389A9700D3E190 /* ButtonColorViewController.swift */,
 				B00F7D3E20389F7700D3E190 /* TextColorViewController.swift */,
+				B00F7D442038AD9700D3E190 /* OutlineViewController.swift */,
+				B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -326,6 +338,7 @@
 				B0CE12DF2034F5ED00A3877B /* Lato-Medium.ttf in Resources */,
 				B0CE12DD2034F5ED00A3877B /* Lato-HeavyItalic.ttf in Resources */,
 				B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */,
+				B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */,
 				B0CE12D22034F5ED00A3877B /* Lato-HairlineItalic.ttf in Resources */,
 				B0CE12D52034F5ED00A3877B /* Lato-BoldItalic.ttf in Resources */,
 				B0CE12DB2034F5ED00A3877B /* README.txt in Resources */,
@@ -347,6 +360,7 @@
 				B0CE12D42034F5ED00A3877B /* Lato-MediumItalic.ttf in Resources */,
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
+				B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */,
 				B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */,
 				B00F7D422038A21900D3E190 /* button_color.wav in Resources */,
 				B00F7D3B20379FD100D3E190 /* menu_color.wav in Resources */,
@@ -366,6 +380,8 @@
 			files = (
 				B00F7D3D20389A9700D3E190 /* ButtonColorViewController.swift in Sources */,
 				B0EFC27E202140FD006569E5 /* WelcomeViewController.swift in Sources */,
+				B00F7D452038AD9700D3E190 /* OutlineViewController.swift in Sources */,
+				B00F7D472039043D00D3E190 /* AudioSpeedViewController.swift in Sources */,
 				B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */,
 				B00F7D3520378C3C00D3E190 /* MenuPositionViewController.swift in Sources */,
 				B00F7D392037944C00D3E190 /* MenuColorViewController.swift in Sources */,

@@ -15,7 +15,7 @@ class Elderface {
     var menuTextSize: Int
     var menuTextColor: UIColor
     var menuColor: UIColor
-    var menuBorderColor: UIColor
+    var isOutlined: Bool
     var menuButtonColor: UIColor
     var menuButtonOutlineColor: UIColor
     var menuPosition: Int
@@ -31,7 +31,7 @@ class Elderface {
         self.screenTextSize = screen_text_normal
         self.menuTextColor = UIColor.black
         self.menuColor = UIColor.white
-        self.menuBorderColor = UIColor.black
+        self.isOutlined = false
         self.menuButtonColor = UIColor.white
         self.menuButtonOutlineColor = UIColor.black
         self.screenBackgroundColor = UIColor.white
