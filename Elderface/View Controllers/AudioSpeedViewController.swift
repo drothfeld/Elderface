@@ -42,21 +42,27 @@ class AudioSpeedViewController: UIViewController {
     }
     
     // Prepare segue
-    //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    //        if segue.identifier == "isOutlined" {
-    //            let controller = segue.destination as! OutlineViewController
-    //            controller.userElderface = userElderface
-    //        }
-    //    }
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "completedElderface" {
+                let controller = segue.destination as! ElderfaceViewController
+                controller.userElderface = userElderface
+            }
+        }
     
     // Choose audio speed
     @IBAction func slowAudioButtonPressed(_ sender: Any) {
+        userElderface.audioSpeed = audio_speed_slow
+        performSegue(withIdentifier: "completedElderface", sender: self)
     }
     
     @IBAction func normalAudioButtonPressed(_ sender: Any) {
+        userElderface.audioSpeed = audio_speed_normal
+        performSegue(withIdentifier: "completedElderface", sender: self)
     }
     
     @IBAction func fastAudioButtonPressed(_ sender: Any) {
+        userElderface.audioSpeed = audio_speed_fast
+        performSegue(withIdentifier: "completedElderface", sender: self)
     }
     
     // Test audio speed

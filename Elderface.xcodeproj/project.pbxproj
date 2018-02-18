@@ -26,6 +26,7 @@
 		B01BA0F820392D7800F83755 /* audio_fast.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F520392D7700F83755 /* audio_fast.wav */; };
 		B01BA0F920392D7800F83755 /* audio_normal.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F620392D7700F83755 /* audio_normal.wav */; };
 		B01BA0FA20392D7800F83755 /* audio_slow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F720392D7700F83755 /* audio_slow.wav */; };
+		B01BA0FC203A0BE400F83755 /* ElderfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01BA0FB203A0BE400F83755 /* ElderfaceViewController.swift */; };
 		B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025147A203697B80028D3FB /* EnterNameViewController.swift */; };
 		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
 		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
@@ -79,6 +80,7 @@
 		B01BA0F520392D7700F83755 /* audio_fast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_fast.wav; sourceTree = "<group>"; };
 		B01BA0F620392D7700F83755 /* audio_normal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_normal.wav; sourceTree = "<group>"; };
 		B01BA0F720392D7700F83755 /* audio_slow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_slow.wav; sourceTree = "<group>"; };
+		B01BA0FB203A0BE400F83755 /* ElderfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderfaceViewController.swift; sourceTree = "<group>"; };
 		B025147A203697B80028D3FB /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
 		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				B00F7D3E20389F7700D3E190 /* TextColorViewController.swift */,
 				B00F7D442038AD9700D3E190 /* OutlineViewController.swift */,
 				B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */,
+				B01BA0FB203A0BE400F83755 /* ElderfaceViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				B0EFC27C202140FD006569E5 /* AppDelegate.swift in Sources */,
 				B00F7D3520378C3C00D3E190 /* MenuPositionViewController.swift in Sources */,
 				B00F7D392037944C00D3E190 /* MenuColorViewController.swift in Sources */,
+				B01BA0FC203A0BE400F83755 /* ElderfaceViewController.swift in Sources */,
 				B00F7D312036BCC600D3E190 /* TextSizeViewController.swift in Sources */,
 				B0CE12F720360F8D00A3877B /* Elderface.swift in Sources */,
 				B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */,

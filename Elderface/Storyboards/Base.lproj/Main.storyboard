@@ -1206,10 +1206,10 @@ T</string>
             </objects>
             <point key="canvasLocation" x="848.60907759882866" y="1558.59375"/>
         </scene>
-        <!--View Controller-->
+        <!--Elderface View Controller-->
         <scene sceneID="Vp9-r6-xkw">
             <objects>
-                <viewController id="cSv-qv-273" sceneMemberID="viewController">
+                <viewController id="cSv-qv-273" customClass="ElderfaceViewController" customModule="Elderface" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vld-67-kqb">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1519,7 +1519,7 @@ T</string>
         <image name="welcome_background.png" width="2732" height="2048"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FIi-pX-z3x"/>
+        <segue reference="9sv-bJ-QMT"/>
         <segue reference="26o-yi-Kw7"/>
         <segue reference="TOz-12-zqb"/>
         <segue reference="8JO-AB-0oT"/>
