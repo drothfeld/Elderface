@@ -22,6 +22,10 @@
 		B00F7D472039043D00D3E190 /* AudioSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */; };
 		B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4820390B1A00D3E190 /* audio_speed.wav */; };
 		B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4920390B1A00D3E190 /* is_outlined.wav */; };
+		B01BA0F4203923BE00F83755 /* audio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F3203923BD00F83755 /* audio_icon.png */; };
+		B01BA0F820392D7800F83755 /* audio_fast.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F520392D7700F83755 /* audio_fast.wav */; };
+		B01BA0F920392D7800F83755 /* audio_normal.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F620392D7700F83755 /* audio_normal.wav */; };
+		B01BA0FA20392D7800F83755 /* audio_slow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F720392D7700F83755 /* audio_slow.wav */; };
 		B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025147A203697B80028D3FB /* EnterNameViewController.swift */; };
 		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
 		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
@@ -71,6 +75,10 @@
 		B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSpeedViewController.swift; sourceTree = "<group>"; };
 		B00F7D4820390B1A00D3E190 /* audio_speed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_speed.wav; sourceTree = "<group>"; };
 		B00F7D4920390B1A00D3E190 /* is_outlined.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = is_outlined.wav; sourceTree = "<group>"; };
+		B01BA0F3203923BD00F83755 /* audio_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_icon.png; sourceTree = "<group>"; };
+		B01BA0F520392D7700F83755 /* audio_fast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_fast.wav; sourceTree = "<group>"; };
+		B01BA0F620392D7700F83755 /* audio_normal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_normal.wav; sourceTree = "<group>"; };
+		B01BA0F720392D7700F83755 /* audio_slow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_slow.wav; sourceTree = "<group>"; };
 		B025147A203697B80028D3FB /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
 		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
@@ -117,6 +125,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B01BA0F2203923B600F83755 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B01BA0F3203923BD00F83755 /* audio_icon.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		B098C7D02036113F001F3316 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +208,9 @@
 				B00F7D412038A21800D3E190 /* text_color.wav */,
 				B00F7D4820390B1A00D3E190 /* audio_speed.wav */,
 				B00F7D4920390B1A00D3E190 /* is_outlined.wav */,
+				B01BA0F520392D7700F83755 /* audio_fast.wav */,
+				B01BA0F620392D7700F83755 /* audio_normal.wav */,
+				B01BA0F720392D7700F83755 /* audio_slow.wav */,
 			);
 			path = Instructions;
 			sourceTree = "<group>";
@@ -199,6 +218,7 @@
 		B0CE12EE2035F8BD00A3877B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B01BA0F2203923B600F83755 /* Icons */,
 				B0CE12EF2035F8C300A3877B /* Backgrounds */,
 			);
 			path = Images;
@@ -334,10 +354,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01BA0FA20392D7800F83755 /* audio_slow.wav in Resources */,
 				B0CE12D12034F5ED00A3877B /* Lato-Heavy.ttf in Resources */,
 				B0CE12DF2034F5ED00A3877B /* Lato-Medium.ttf in Resources */,
 				B0CE12DD2034F5ED00A3877B /* Lato-HeavyItalic.ttf in Resources */,
 				B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */,
+				B01BA0F920392D7800F83755 /* audio_normal.wav in Resources */,
 				B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */,
 				B0CE12D22034F5ED00A3877B /* Lato-HairlineItalic.ttf in Resources */,
 				B0CE12D52034F5ED00A3877B /* Lato-BoldItalic.ttf in Resources */,
@@ -346,6 +368,7 @@
 				B00F7D332036C5AF00D3E190 /* text_size.wav in Resources */,
 				B0CE12DC2034F5ED00A3877B /* Lato-Hairline.ttf in Resources */,
 				B0CE12D92034F5ED00A3877B /* Lato-BlackItalic.ttf in Resources */,
+				B01BA0F4203923BE00F83755 /* audio_icon.png in Resources */,
 				B00F7D37203791D600D3E190 /* menu_position.wav in Resources */,
 				B00F7D2F2036B9A200D3E190 /* enter_name_fail.wav in Resources */,
 				B00F7D432038A21900D3E190 /* text_color.wav in Resources */,
@@ -358,6 +381,7 @@
 				B0CE12E22034F5ED00A3877B /* Lato-Thin.ttf in Resources */,
 				B0AF15E32036A0E60026E9E8 /* welcome_background.png in Resources */,
 				B0CE12D42034F5ED00A3877B /* Lato-MediumItalic.ttf in Resources */,
+				B01BA0F820392D7800F83755 /* audio_fast.wav in Resources */,
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
 				B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */,

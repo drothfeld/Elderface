@@ -626,13 +626,120 @@ T</string>
                     <view key="view" contentMode="scaleToFill" id="qzG-Zo-CxP">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yyh-JJ-kcN" userLabel="View Audio Speed">
+                                <rect key="frame" x="0.0" y="271" width="1366" height="733"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Audio Speed" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYp-4c-6Vx" userLabel="Label Audio Speed">
+                                        <rect key="frame" x="-24" y="86" width="1415" height="131"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="100"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RNE-hW-ecY" userLabel="View Audio Speed">
+                                        <rect key="frame" x="63" y="261" width="1217" height="396"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XzL-1M-G75" userLabel="Button Slow">
+                                                <rect key="frame" x="70" y="8" width="300" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                                <state key="normal" title="Slow">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonColorGray:" destination="0rQ-60-HkE" eventType="touchUpInside" id="icm-6a-rod"/>
+                                                    <action selector="menuColorGrayButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="ML0-oR-i6v"/>
+                                                    <action selector="slowAudioButtonPressed:" destination="DEw-Qy-oss" eventType="touchUpInside" id="ZzR-te-Lne"/>
+                                                    <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="b46-dG-cih"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5E-f0-uX5" userLabel="Button Normal">
+                                                <rect key="frame" x="458" y="8" width="300" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                                <state key="normal" title="Normal">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonColorGray:" destination="0rQ-60-HkE" eventType="touchUpInside" id="ofD-mx-Y0I"/>
+                                                    <action selector="menuColorGrayButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="TXt-0q-cLY"/>
+                                                    <action selector="normalAudioButtonPressed:" destination="DEw-Qy-oss" eventType="touchUpInside" id="s0n-Pf-ZYK"/>
+                                                    <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="dXY-GS-rh3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IV0-RB-XkX" userLabel="Button Fast">
+                                                <rect key="frame" x="836" y="8" width="300" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
+                                                <state key="normal" title="Fast">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonColorGray:" destination="0rQ-60-HkE" eventType="touchUpInside" id="SuV-wc-xHr"/>
+                                                    <action selector="fastAudioButtonPressed:" destination="DEw-Qy-oss" eventType="touchUpInside" id="obf-UH-7qf"/>
+                                                    <action selector="menuColorGrayButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="N1e-57-nhG"/>
+                                                    <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="r4X-l0-PzD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgK-u8-t49" userLabel="Button Play Audio Slow">
+                                                <rect key="frame" x="170" y="116" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="audio_icon.png"/>
+                                                <connections>
+                                                    <action selector="playSlowAudioButton:" destination="DEw-Qy-oss" eventType="touchUpInside" id="Ir9-wC-VTQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFZ-hY-sHs" userLabel="Button Play Audio Normal">
+                                                <rect key="frame" x="558" y="116" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="audio_icon.png"/>
+                                                <connections>
+                                                    <action selector="playNormalAudioButton:" destination="DEw-Qy-oss" eventType="touchUpInside" id="Emg-7g-a9x"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar3-X5-wQ2" userLabel="Button Play Audio Fast">
+                                                <rect key="frame" x="936" y="116" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="audio_icon.png"/>
+                                                <connections>
+                                                    <action selector="playFastAudioButton:" destination="DEw-Qy-oss" eventType="touchUpInside" id="Mna-cg-J6c"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XkZ-oR-6xY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jRl-B1-rK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1570" y="1559"/>
+            <point key="canvasLocation" x="1569.8389458272327" y="1558.59375"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -829,7 +936,6 @@ T</string>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="menuColorMagentaButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="xll-65-ghn"/>
-                                            <action selector="menuColorPinkButton:" destination="tR9-Jp-98M" eventType="touchUpInside" id="QMP-fd-bOU"/>
                                             <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="npG-8V-w2X"/>
                                             <segue destination="0rQ-60-HkE" kind="show" identifier="buttonColor" id="D7a-Cx-G39"/>
                                         </connections>
@@ -1099,6 +1205,7 @@ T</string>
         </scene>
     </scenes>
     <resources>
+        <image name="audio_icon.png" width="2000" height="2000"/>
         <image name="welcome_background.png" width="2732" height="2048"/>
     </resources>
     <inferredMetricsTieBreakers>

@@ -19,12 +19,12 @@ class AudioSpeedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //elderfaceSetup()
-        playAudioSpeedAudio()
+        playAudioSpeedAudio(audioFileURL: "audio_speed.wav")
     }
     
     // Play enter name audio file
-    func playAudioSpeedAudio() {
-        let path = Bundle.main.path(forResource: "audio_speed.wav", ofType:nil)!
+    func playAudioSpeedAudio(audioFileURL: String) {
+        let path = Bundle.main.path(forResource: audioFileURL, ofType:nil)!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -48,6 +48,29 @@ class AudioSpeedViewController: UIViewController {
     //            controller.userElderface = userElderface
     //        }
     //    }
+    
+    // Choose audio speed
+    @IBAction func slowAudioButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func normalAudioButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func fastAudioButtonPressed(_ sender: Any) {
+    }
+    
+    // Test audio speed
+    @IBAction func playSlowAudioButton(_ sender: Any) {
+        playAudioSpeedAudio(audioFileURL: "audio_slow.wav")
+    }
+    
+    @IBAction func playNormalAudioButton(_ sender: Any) {
+        playAudioSpeedAudio(audioFileURL: "audio_normal.wav")
+    }
+    
+    @IBAction func playFastAudioButton(_ sender: Any) {
+        playAudioSpeedAudio(audioFileURL: "audio_fast.wav")
+    }
     
     // Hide status bar
     override var prefersStatusBarHidden: Bool {
