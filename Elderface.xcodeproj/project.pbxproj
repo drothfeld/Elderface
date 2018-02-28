@@ -22,6 +22,7 @@
 		B00F7D472039043D00D3E190 /* AudioSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */; };
 		B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4820390B1A00D3E190 /* audio_speed.wav */; };
 		B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4920390B1A00D3E190 /* is_outlined.wav */; };
+		B0120DF7203A339F0045545C /* Elderface Dialogue.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0120DF6203A339F0045545C /* Elderface Dialogue.rtf */; };
 		B01BA0F4203923BE00F83755 /* audio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F3203923BD00F83755 /* audio_icon.png */; };
 		B01BA0F820392D7800F83755 /* audio_fast.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F520392D7700F83755 /* audio_fast.wav */; };
 		B01BA0F920392D7800F83755 /* audio_normal.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F620392D7700F83755 /* audio_normal.wav */; };
@@ -79,6 +80,7 @@
 		B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSpeedViewController.swift; sourceTree = "<group>"; };
 		B00F7D4820390B1A00D3E190 /* audio_speed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_speed.wav; sourceTree = "<group>"; };
 		B00F7D4920390B1A00D3E190 /* is_outlined.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = is_outlined.wav; sourceTree = "<group>"; };
+		B0120DF6203A339F0045545C /* Elderface Dialogue.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Elderface Dialogue.rtf"; sourceTree = "<group>"; };
 		B01BA0F3203923BD00F83755 /* audio_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_icon.png; sourceTree = "<group>"; };
 		B01BA0F520392D7700F83755 /* audio_fast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_fast.wav; sourceTree = "<group>"; };
 		B01BA0F620392D7700F83755 /* audio_normal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_normal.wav; sourceTree = "<group>"; };
@@ -133,6 +135,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0120DF5203A33930045545C /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				B0120DF6203A339F0045545C /* Elderface Dialogue.rtf */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		B01BA0F2203923B600F83755 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				B0EFC282202140FD006569E5 /* Assets.xcassets */,
+				B0120DF5203A33930045545C /* Text */,
 				B0CE12EE2035F8BD00A3877B /* Images */,
 				B0CE12E42034FC1F00A3877B /* Audio */,
 				B0CE12BA2034F5CA00A3877B /* Fonts */,
@@ -399,6 +410,7 @@
 				B01BA0F820392D7800F83755 /* audio_fast.wav in Resources */,
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
+				B0120DF7203A339F0045545C /* Elderface Dialogue.rtf in Resources */,
 				B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */,
 				B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */,
 				B00F7D422038A21900D3E190 /* button_color.wav in Resources */,

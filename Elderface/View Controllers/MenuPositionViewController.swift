@@ -39,7 +39,15 @@ class MenuPositionViewController: UIViewController {
         if segue.identifier == "menuColor" {
             let controller = segue.destination as! MenuColorViewController
             controller.userElderface = userElderface
+        } else if (segue.identifier == "backToTextSize") {
+            let controller = segue.destination as! TextSizeViewController
+            controller.userElderface = userElderface
         }
+    }
+    
+    // Back button is pressed
+    @IBAction func goBackPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToTextSize", sender: self)
     }
     
     // Menu position button pressed

@@ -19,6 +19,9 @@
         <array key="Lato-Regular.ttf">
             <string>Lato-Regular</string>
         </array>
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Enter Name View Controller-->
@@ -190,6 +193,18 @@ T</string>
                                     <action selector="menuRightButtonPressed:" destination="RpI-fI-eWk" eventType="touchUpInside" id="zq1-2a-esa"/>
                                     <action selector="smallTextSizePressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="lT9-3V-f9Y"/>
                                     <segue destination="tR9-Jp-98M" kind="show" identifier="menuColor" id="bfL-dP-eod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaF-6L-XtV">
+                                <rect key="frame" x="135" y="150" width="204" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="50"/>
+                                <state key="normal" title="&lt;- Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackPressed:" destination="RpI-fI-eWk" eventType="touchUpInside" id="agA-fZ-UVd"/>
+                                    <segue destination="2wZ-Jk-F0X" kind="show" identifier="backToTextSize" id="aIR-cK-k9V"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -398,6 +413,18 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9o-Kx-lTq">
+                                <rect key="frame" x="20" y="20" width="204" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="50"/>
+                                <state key="normal" title="&lt;- Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackPressed:" destination="Q6g-xo-Am3" eventType="touchUpInside" id="maw-lp-Whf"/>
+                                    <segue destination="0rQ-60-HkE" kind="show" identifier="backToButtonColor" id="ZIk-qK-USR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="p2D-vU-QA0"/>
@@ -607,6 +634,18 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cji-Ek-Cts">
+                                <rect key="frame" x="20" y="20" width="204" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="50"/>
+                                <state key="normal" title="&lt;- Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackPressed:" destination="0rQ-60-HkE" eventType="touchUpInside" id="22g-rU-1wm"/>
+                                    <segue destination="tR9-Jp-98M" kind="show" identifier="backToBackgroundColor" id="Keh-qx-LpM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pKj-nO-fdz"/>
@@ -735,6 +774,18 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xah-i8-EAS">
+                                <rect key="frame" x="20" y="20" width="204" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="50"/>
+                                <state key="normal" title="&lt;- Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackPressed:" destination="DEw-Qy-oss" eventType="touchUpInside" id="vgg-3V-RU4"/>
+                                    <segue destination="vdd-GJ-6gz" kind="show" identifier="backToOutline" id="rNN-WT-HdB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XkZ-oR-6xY"/>
@@ -900,6 +951,18 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F47-va-Q7w">
+                                <rect key="frame" x="20" y="20" width="204" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="50"/>
+                                <state key="normal" title="&lt;- Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackPressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="60j-LI-DBd"/>
+                                    <segue destination="H6f-N3-XfL" kind="show" identifier="backToName" id="uyf-Bi-CPo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9jR-HS-aVj"/>
@@ -907,7 +970,7 @@ T</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sy-Ww-qov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1570" y="134"/>
+            <point key="canvasLocation" x="1569.8389458272327" y="133.59375"/>
         </scene>
         <!--Menu Color View Controller-->
         <scene sceneID="ghL-0j-Ghh">
@@ -1083,6 +1146,18 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIj-HP-JRZ">
+                                <rect key="frame" x="20" y="20" width="204" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="50"/>
+                                <state key="normal" title="&lt;- Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackPressed:" destination="tR9-Jp-98M" eventType="touchUpInside" id="6M0-fY-vXX"/>
+                                    <segue destination="RpI-fI-eWk" kind="show" identifier="backToMenuPosition" id="lvd-Da-AKF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2fg-Hd-J9G"/>
@@ -1195,6 +1270,18 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LM9-at-Ngh">
+                                <rect key="frame" x="20" y="20" width="204" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="50"/>
+                                <state key="normal" title="&lt;- Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackPressed:" destination="vdd-GJ-6gz" eventType="touchUpInside" id="3iT-kH-k57"/>
+                                    <segue destination="Q6g-xo-Am3" kind="show" identifier="backToTextColor" id="f5w-tK-JJ2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tVj-dW-l7D"/>
@@ -1556,11 +1643,13 @@ T</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="3U1-Jb-0T3"/>
-        <segue reference="26o-yi-Kw7"/>
-        <segue reference="TOz-12-zqb"/>
+        <segue reference="rNN-WT-HdB"/>
+        <segue reference="Keh-qx-LpM"/>
+        <segue reference="U8p-nd-GQc"/>
         <segue reference="8JO-AB-0oT"/>
-        <segue reference="lzu-ke-ws0"/>
-        <segue reference="Trp-kd-4du"/>
-        <segue reference="hem-oH-VTH"/>
+        <segue reference="ZIk-qK-USR"/>
+        <segue reference="f5w-tK-JJ2"/>
+        <segue reference="lvd-Da-AKF"/>
+        <segue reference="uyf-Bi-CPo"/>
     </inferredMetricsTieBreakers>
 </document>

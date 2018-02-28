@@ -57,7 +57,15 @@ class OutlineViewController: UIViewController {
         if segue.identifier == "audioSpeed" {
             let controller = segue.destination as! AudioSpeedViewController
             controller.userElderface = userElderface
+        } else if (segue.identifier == "backToTextColor") {
+            let controller = segue.destination as! TextColorViewController
+            controller.userElderface = userElderface
         }
+    }
+    
+    // Back button is pressed
+    @IBAction func goBackPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToTextColor", sender: self)
     }
     
     // isOutlined button is pressed

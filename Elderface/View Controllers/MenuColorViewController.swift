@@ -39,7 +39,15 @@ class MenuColorViewController: UIViewController {
         if segue.identifier == "buttonColor" {
             let controller = segue.destination as! ButtonColorViewController
             controller.userElderface = userElderface
+        } else if (segue.identifier == "backToMenuPosition") {
+            let controller = segue.destination as! MenuPositionViewController
+            controller.userElderface = userElderface
         }
+    }
+    
+    // Back button is pressed
+    @IBAction func goBackPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToMenuPosition", sender: self)
     }
     
     // Menu Color Selection Buttons

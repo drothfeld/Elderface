@@ -46,8 +46,16 @@ class ButtonColorViewController: UIViewController {
             if segue.identifier == "textColor" {
                 let controller = segue.destination as! TextColorViewController
                 controller.userElderface = userElderface
+            } else if (segue.identifier == "backToBackgroundColor") {
+                let controller = segue.destination as! MenuColorViewController
+                controller.userElderface = userElderface
             }
         }
+    
+    // Back button is pressed
+    @IBAction func goBackPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToBackgroundColor", sender: self)
+    }
     
     // Button color choices
     @IBAction func buttonColorBlack(_ sender: Any) {

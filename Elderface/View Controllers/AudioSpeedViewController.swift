@@ -43,11 +43,19 @@ class AudioSpeedViewController: UIViewController {
     
     // Prepare segue
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "completedElderface" {
+            if (segue.identifier == "completedElderface") {
                 let controller = segue.destination as! ElderfaceViewController
+                controller.userElderface = userElderface
+            } else if (segue.identifier == "backToOutline") {
+                let controller = segue.destination as! OutlineViewController
                 controller.userElderface = userElderface
             }
         }
+    
+    // Back button is pressed
+    @IBAction func goBackPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToOutline", sender: self)
+    }
     
     // Choose audio speed
     @IBAction func slowAudioButtonPressed(_ sender: Any) {

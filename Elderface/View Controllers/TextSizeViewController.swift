@@ -39,7 +39,15 @@ class TextSizeViewController: UIViewController {
         if segue.identifier == "menuPosition" {
             let controller = segue.destination as! MenuPositionViewController
             controller.userElderface = userElderface
+        } else if (segue.identifier == "backToName") {
+            let controller = segue.destination as! EnterNameViewController
+            controller.userElderface = userElderface
         }
+    }
+    
+    // Back button is pressed
+    @IBAction func goBackPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToName", sender: self)
     }
     
     // Text size button is pressed

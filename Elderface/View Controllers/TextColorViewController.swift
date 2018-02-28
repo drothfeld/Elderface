@@ -64,7 +64,15 @@ class TextColorViewController: UIViewController {
         if segue.identifier == "isOutlined" {
             let controller = segue.destination as! OutlineViewController
             controller.userElderface = userElderface
+        } else if (segue.identifier == "backToButtonColor") {
+            let controller = segue.destination as! ButtonColorViewController
+            controller.userElderface = userElderface
         }
+    }
+    
+    // Back button is pressed
+    @IBAction func goBackPressed(_ sender: Any) {
+        performSegue(withIdentifier: "backToButtonColor", sender: self)
     }
     
     // Text color button pressed
