@@ -43,19 +43,20 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type name here" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="igA-sO-KPS" userLabel="Text Enter Name">
-                                        <rect key="frame" x="431" y="267" width="505" height="33"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Press here" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="igA-sO-KPS" userLabel="Text Enter Name">
+                                        <rect key="frame" x="110" y="250" width="1146" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="24"/>
+                                        <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="55"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES"/>
                                         <connections>
+                                            <action selector="beginEditingTextField:" destination="H6f-N3-XfL" eventType="editingDidBegin" id="U8e-b6-hkw"/>
                                             <action selector="textFieldChanged:" destination="H6f-N3-XfL" eventType="editingDidEnd" id="8fr-69-XTH"/>
                                             <action selector="textFieldChanged:" destination="H6f-N3-XfL" eventType="editingChanged" id="nOF-eT-d17"/>
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPg-X4-Qhf">
-                                        <rect key="frame" x="533" y="392" width="300" height="100"/>
+                                        <rect key="frame" x="533" y="432" width="300" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="50"/>
@@ -1628,7 +1629,7 @@ T</string>
         <segue reference="3U1-Jb-0T3"/>
         <segue reference="rNN-WT-HdB"/>
         <segue reference="Tac-gC-VKf"/>
-        <segue reference="aIR-cK-k9V"/>
+        <segue reference="U8p-nd-GQc"/>
         <segue reference="8JO-AB-0oT"/>
         <segue reference="nEv-B8-iuT"/>
         <segue reference="f5w-tK-JJ2"/>

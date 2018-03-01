@@ -17,12 +17,27 @@ class EnterNameViewController: UIViewController {
     // Controller Elements
     var continueButtonIsAnimating: Bool = false
     var userElderface: Elderface! = nil
+    var textFieldInteractionTimer: Timer! = nil
+    var textFieldTimerIsOn: Bool = false
     
     // Run on load
     override func viewDidLoad() {
         super.viewDidLoad()
         playEnterNameAudio()
         validateTextField()
+    }
+    
+    // User starts to edit textfield
+    @IBAction func beginEditingTextField(_ sender: Any) {
+        NSLog("EDITING STARTED")
+        // TODO: Play audio asking the user to enter their name
+    }
+    
+    // Text field timer expires
+    @objc func textFieldTimerExpires() {
+        NSLog("PLAY ARE YOU DONE EDITING AUDIO")
+        textFieldTimerIsOn = false
+        //TODO: Play audio asking the user to hit the green button if they are done
     }
     
     // Play enter name audio file
@@ -46,6 +61,15 @@ class EnterNameViewController: UIViewController {
     // Check for text field change
     @IBAction func textFieldChanged(_ sender: Any) {
         validateTextField()
+        if (textFieldInteractionTimer != nil) {
+            textFieldInteractionTimer.invalidate()
+        }
+        textFieldInteractionTimer = Timer.scheduledTimer(timeInterval: 5,
+                                    target: self,
+                                    selector: #selector(textFieldTimerExpires),
+                                    userInfo: nil,
+                                    repeats: false)
+        textFieldTimerIsOn = true
     }
     
     // Prepare segue
@@ -58,6 +82,9 @@ class EnterNameViewController: UIViewController {
     
     // Continue button is pressed
     @IBAction func continueButtonPressed(_ sender: Any) {
+        textFieldInteractionTimer.invalidate()
+        textFieldInteractionTimer = nil
+        textFieldTimerIsOn = false
         userElderface = Elderface(user: (EnterNameTextField.text)!)
         performSegue(withIdentifier: "textSize", sender: self)
     }
