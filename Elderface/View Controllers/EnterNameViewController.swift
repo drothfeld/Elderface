@@ -40,6 +40,11 @@ class EnterNameViewController: UIViewController {
         //TODO: Play audio asking the user to hit the green button if they are done
     }
     
+    // Replay audio instructions
+    @IBAction func playAudioAgain(_ sender: Any) {
+        playEnterNameAudio()
+    }
+    
     // Play enter name audio file
     func playEnterNameAudio() {
         let path = Bundle.main.path(forResource: "enter_name.wav", ofType:nil)!

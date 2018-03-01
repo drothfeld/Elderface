@@ -34,6 +34,11 @@ class MenuColorViewController: UIViewController {
         }
     }
     
+    // Replay audio instructions
+    @IBAction func playAudioAgain(_ sender: Any) {
+        playMenuColorAudio()
+    }
+    
     // Prepare segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "buttonColor" {

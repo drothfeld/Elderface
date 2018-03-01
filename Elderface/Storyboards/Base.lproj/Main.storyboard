@@ -76,6 +76,15 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0f-uL-qgj">
+                                <rect key="frame" x="208" y="133" width="950" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                <state key="normal" title="Press here to listen to instructions again."/>
+                                <connections>
+                                    <action selector="playAudioAgain:" destination="H6f-N3-XfL" eventType="touchUpInside" id="6fN-O2-afI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ndp-3W-sjk"/>
@@ -108,6 +117,15 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zx-mT-ozd">
+                                        <rect key="frame" x="208" y="-22" width="950" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                        <state key="normal" title="Press here to listen to instructions again."/>
+                                        <connections>
+                                            <action selector="playAudioAgain:" destination="RpI-fI-eWk" eventType="touchUpInside" id="JGj-jN-FmK"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -426,6 +444,15 @@ T</string>
                                     <segue destination="0rQ-60-HkE" kind="show" identifier="backToButtonColor" id="ZIk-qK-USR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kcv-8W-Xs5">
+                                <rect key="frame" x="208" y="133" width="950" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                <state key="normal" title="Press here to listen to instructions again."/>
+                                <connections>
+                                    <action selector="playAudioAgain:" destination="Q6g-xo-Am3" eventType="touchUpInside" id="8qL-x2-Wqn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="p2D-vU-QA0"/>
@@ -635,6 +662,15 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTh-uZ-y39">
+                                <rect key="frame" x="208" y="133" width="950" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                <state key="normal" title="Press here to listen to instructions again."/>
+                                <connections>
+                                    <action selector="playAudioAgain:" destination="0rQ-60-HkE" eventType="touchUpInside" id="ASZ-Hf-sFa"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cji-Ek-Cts">
                                 <rect key="frame" x="20" y="20" width="204" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -794,6 +830,15 @@ T</string>
                                     <segue destination="vdd-GJ-6gz" kind="show" identifier="backToOutline" id="rNN-WT-HdB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwC-yo-Lmm">
+                                <rect key="frame" x="208" y="133" width="950" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                <state key="normal" title="Press here to listen to instructions again."/>
+                                <connections>
+                                    <action selector="playAudioAgain:" destination="DEw-Qy-oss" eventType="touchUpInside" id="HHO-SH-eKD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XkZ-oR-6xY"/>
@@ -945,6 +990,15 @@ T</string>
                                 <connections>
                                     <action selector="goBackPressed:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="60j-LI-DBd"/>
                                     <segue destination="H6f-N3-XfL" kind="show" identifier="backToName" id="uyf-Bi-CPo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffd-M3-3bc">
+                                <rect key="frame" x="229" y="133" width="950" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                <state key="normal" title="Press here to listen to instructions again."/>
+                                <connections>
+                                    <action selector="playAudioAgain:" destination="2wZ-Jk-F0X" eventType="touchUpInside" id="h2m-50-Qxg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1142,6 +1196,15 @@ T</string>
                                     <segue destination="RpI-fI-eWk" kind="show" identifier="backToMenuPosition" id="lvd-Da-AKF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbs-QG-6lm">
+                                <rect key="frame" x="208" y="133" width="950" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                <state key="normal" title="Press here to listen to instructions again."/>
+                                <connections>
+                                    <action selector="playAudioAgain:" destination="tR9-Jp-98M" eventType="touchUpInside" id="yTB-C8-usu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2fg-Hd-J9G"/>
@@ -1264,6 +1327,15 @@ T</string>
                                 <connections>
                                     <action selector="goBackPressed:" destination="vdd-GJ-6gz" eventType="touchUpInside" id="3iT-kH-k57"/>
                                     <segue destination="Q6g-xo-Am3" kind="show" identifier="backToTextColor" id="f5w-tK-JJ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFu-2y-E0G">
+                                <rect key="frame" x="208" y="133" width="950" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
+                                <state key="normal" title="Press here to listen to instructions again."/>
+                                <connections>
+                                    <action selector="playAudioAgain:" destination="vdd-GJ-6gz" eventType="touchUpInside" id="JWX-ei-Vhb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1628,12 +1700,12 @@ T</string>
     <inferredMetricsTieBreakers>
         <segue reference="3U1-Jb-0T3"/>
         <segue reference="rNN-WT-HdB"/>
-        <segue reference="Tac-gC-VKf"/>
+        <segue reference="Keh-qx-LpM"/>
         <segue reference="U8p-nd-GQc"/>
         <segue reference="8JO-AB-0oT"/>
-        <segue reference="nEv-B8-iuT"/>
+        <segue reference="ZIk-qK-USR"/>
         <segue reference="f5w-tK-JJ2"/>
-        <segue reference="hem-oH-VTH"/>
+        <segue reference="lvd-Da-AKF"/>
         <segue reference="uyf-Bi-CPo"/>
     </inferredMetricsTieBreakers>
 </document>

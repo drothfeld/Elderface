@@ -39,6 +39,11 @@ class OutlineViewController: UIViewController {
         }
     }
     
+    // Replay audio instructions
+    @IBAction func playAudioAgain(_ sender: Any) {
+        playIsOutlinedAudio()
+    }
+    
     // Setup interface based on elderface values
     func elderfaceSetup() {
         // Menu background layer

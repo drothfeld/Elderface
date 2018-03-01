@@ -35,6 +35,11 @@ class AudioSpeedViewController: UIViewController {
         }
     }
     
+    // Replay audio instructions
+    @IBAction func playAudioAgain(_ sender: Any) {
+        playAudioSpeedAudio(audioFileURL: "audio_speed.wav")
+    }
+    
     // Setup interface based on elderface values
     func elderfaceSetup() {
         // Menu background layer

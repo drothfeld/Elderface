@@ -34,6 +34,11 @@ class TextSizeViewController: UIViewController {
         }
     }
     
+    // Replay audio instructions
+    @IBAction func playAudioAgain(_ sender: Any) {
+        playTextSizeAudio()
+    }
+    
     // Prepare segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "menuPosition" {
