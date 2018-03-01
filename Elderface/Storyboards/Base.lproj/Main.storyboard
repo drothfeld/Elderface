@@ -118,7 +118,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zx-mT-ozd">
-                                        <rect key="frame" x="208" y="-22" width="950" height="100"/>
+                                        <rect key="frame" x="208" y="259" width="950" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="50"/>
                                         <state key="normal" title="Press here to listen to instructions again."/>
@@ -860,6 +860,9 @@ T</string>
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZJx-ZG-72s" appends="YES" id="z8i-4b-2ZN"/>
+                                </connections>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U6V-4o-UWQ" userLabel="View Welcome Label">
                                 <rect key="frame" x="0.0" y="360" width="1366" height="303"/>
@@ -882,7 +885,7 @@ T</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G24-9t-5Cr">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G24-9t-5Cr">
                                 <rect key="frame" x="439" y="767" width="488" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -891,7 +894,7 @@ T</string>
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="H6f-N3-XfL" kind="show" id="PEK-dF-pxk"/>
+                                    <segue destination="H6f-N3-XfL" kind="show" identifier="start" id="PEK-dF-pxk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -901,9 +904,15 @@ T</string>
                     </view>
                     <connections>
                         <outlet property="LabelTapAnywhere" destination="XGL-Ae-Nin" id="s7P-2M-6yP"/>
+                        <outlet property="backgroundView" destination="8bC-Xf-vdC" id="tEe-Kx-700"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZJx-ZG-72s">
+                    <connections>
+                        <action selector="welcomeTapped:" destination="BYZ-38-t0r" id="vlF-WQ-oG0"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="137.48169838945827" y="133.59375"/>
         </scene>
@@ -1700,12 +1709,12 @@ T</string>
     <inferredMetricsTieBreakers>
         <segue reference="3U1-Jb-0T3"/>
         <segue reference="rNN-WT-HdB"/>
-        <segue reference="Keh-qx-LpM"/>
-        <segue reference="U8p-nd-GQc"/>
+        <segue reference="Tac-gC-VKf"/>
+        <segue reference="aIR-cK-k9V"/>
         <segue reference="8JO-AB-0oT"/>
         <segue reference="ZIk-qK-USR"/>
         <segue reference="f5w-tK-JJ2"/>
         <segue reference="lvd-Da-AKF"/>
-        <segue reference="uyf-Bi-CPo"/>
+        <segue reference="PEK-dF-pxk"/>
     </inferredMetricsTieBreakers>
 </document>

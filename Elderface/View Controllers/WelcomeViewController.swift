@@ -14,12 +14,21 @@ var audioPlayer: AVAudioPlayer!
 class WelcomeViewController: UIViewController {
     // UI Elements
     @IBOutlet weak var LabelTapAnywhere: UILabel!
+    @IBOutlet var backgroundView: UIView!
     
     // Run on load
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViewTap()
         playWelcomeAudio()
         LabelTapAnywhere.startBlink()
+    }
+    
+    // Recognize tap gesture on main view
+    func setupViewTap() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.tappedBackground(_:)))
+        tap.delegate = self as? UIGestureRecognizerDelegate
+        backgroundView.addGestureRecognizer(tap)
     }
     
     // Play welcome audio file
@@ -40,11 +49,10 @@ class WelcomeViewController: UIViewController {
         return true
     }
     
-    // TODO
     // Tap anywhere to begin is tapped
-//    @IBAction func welcomeTapped(_ sender: Any) {
-//
-//    }
+    @objc func tappedBackground(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "start", sender: self)
+    }
 
 }
 
