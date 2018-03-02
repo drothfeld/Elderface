@@ -23,31 +23,38 @@ class EnterNameViewController: UIViewController {
     // Run on load
     override func viewDidLoad() {
         super.viewDidLoad()
-        playEnterNameAudio()
+        playEnterNameAudio(audioFileURL: "enter_name_01.wav")
         validateTextField()
+    }
+    
+    // Rrun on finish
+    override func viewDidDisappear(_ animated: Bool) {
+        textFieldInteractionTimer.invalidate()
+        textFieldInteractionTimer = nil
+        textFieldTimerIsOn = false
     }
     
     // User starts to edit textfield
     @IBAction func beginEditingTextField(_ sender: Any) {
         NSLog("EDITING STARTED")
-        // TODO: Play audio asking the user to enter their name
+        playEnterNameAudio(audioFileURL: "enter_name_02.wav")
     }
     
     // Text field timer expires
     @objc func textFieldTimerExpires() {
         NSLog("PLAY ARE YOU DONE EDITING AUDIO")
         textFieldTimerIsOn = false
-        //TODO: Play audio asking the user to hit the green button if they are done
+        playEnterNameAudio(audioFileURL: "enter_name_03.wav")
     }
     
     // Replay audio instructions
     @IBAction func playAudioAgain(_ sender: Any) {
-        playEnterNameAudio()
+        playEnterNameAudio(audioFileURL: "enter_name_01.wav")
     }
     
     // Play enter name audio file
-    func playEnterNameAudio() {
-        let path = Bundle.main.path(forResource: "enter_name.wav", ofType:nil)!
+    func playEnterNameAudio(audioFileURL: String) {
+        let path = Bundle.main.path(forResource: audioFileURL, ofType:nil)!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -69,7 +76,8 @@ class EnterNameViewController: UIViewController {
         if (textFieldInteractionTimer != nil) {
             textFieldInteractionTimer.invalidate()
         }
-        textFieldInteractionTimer = Timer.scheduledTimer(timeInterval: 5,
+        textFieldInteractionTimer = Timer.scheduledTimer(
+                                    timeInterval: 3,
                                     target: self,
                                     selector: #selector(textFieldTimerExpires),
                                     userInfo: nil,

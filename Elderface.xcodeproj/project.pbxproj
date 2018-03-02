@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		B00F7D2F2036B9A200D3E190 /* enter_name_fail.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */; };
 		B00F7D312036BCC600D3E190 /* TextSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D302036BCC600D3E190 /* TextSizeViewController.swift */; };
-		B00F7D332036C5AF00D3E190 /* text_size.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D322036C5AF00D3E190 /* text_size.wav */; };
+		B00F7D332036C5AF00D3E190 /* text_size [OLD].wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D322036C5AF00D3E190 /* text_size [OLD].wav */; };
 		B00F7D3520378C3C00D3E190 /* MenuPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D3420378C3C00D3E190 /* MenuPositionViewController.swift */; };
-		B00F7D37203791D600D3E190 /* menu_position.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D36203791D600D3E190 /* menu_position.wav */; };
+		B00F7D37203791D600D3E190 /* menu_position [OLD].wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D36203791D600D3E190 /* menu_position [OLD].wav */; };
 		B00F7D392037944C00D3E190 /* MenuColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D382037944C00D3E190 /* MenuColorViewController.swift */; };
-		B00F7D3B20379FD100D3E190 /* menu_color.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D3A20379FD100D3E190 /* menu_color.wav */; };
+		B00F7D3B20379FD100D3E190 /* menu_color [OLD].wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D3A20379FD100D3E190 /* menu_color [OLD].wav */; };
 		B00F7D3D20389A9700D3E190 /* ButtonColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D3C20389A9700D3E190 /* ButtonColorViewController.swift */; };
 		B00F7D3F20389F7700D3E190 /* TextColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D3E20389F7700D3E190 /* TextColorViewController.swift */; };
 		B00F7D422038A21900D3E190 /* button_color.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D402038A21800D3E190 /* button_color.wav */; };
@@ -21,7 +21,7 @@
 		B00F7D452038AD9700D3E190 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D442038AD9700D3E190 /* OutlineViewController.swift */; };
 		B00F7D472039043D00D3E190 /* AudioSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */; };
 		B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4820390B1A00D3E190 /* audio_speed.wav */; };
-		B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4920390B1A00D3E190 /* is_outlined.wav */; };
+		B00F7D4B20390B1A00D3E190 /* is_outlined [OLD].wav in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D4920390B1A00D3E190 /* is_outlined [OLD].wav */; };
 		B0120DF7203A339F0045545C /* Elderface Dialogue.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0120DF6203A339F0045545C /* Elderface Dialogue.rtf */; };
 		B01BA0F4203923BE00F83755 /* audio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F3203923BD00F83755 /* audio_icon.png */; };
 		B01BA0F820392D7800F83755 /* audio_fast.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F520392D7700F83755 /* audio_fast.wav */; };
@@ -29,12 +29,19 @@
 		B01BA0FA20392D7800F83755 /* audio_slow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B01BA0F720392D7700F83755 /* audio_slow.wav */; };
 		B01BA0FC203A0BE400F83755 /* ElderfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01BA0FB203A0BE400F83755 /* ElderfaceViewController.swift */; };
 		B025147B203697B80028D3FB /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025147A203697B80028D3FB /* EnterNameViewController.swift */; };
-		B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name.wav */; };
+		B05B5CE52036B4DE00391C5B /* enter_name [OLD].wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE32036B4DE00391C5B /* enter_name [OLD].wav */; };
 		B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = B05B5CE42036B4DE00391C5B /* welcome.wav */; };
 		B098C7D220361161001F3316 /* ElderfaceFieldValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */; };
 		B0A91ADA203A2AE200DD41B8 /* complete_fast.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0A91AD7203A2AE100DD41B8 /* complete_fast.wav */; };
 		B0A91ADB203A2AE200DD41B8 /* complete_slow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0A91AD8203A2AE100DD41B8 /* complete_slow.wav */; };
 		B0A91ADC203A2AE200DD41B8 /* complete_normal.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0A91AD9203A2AE200DD41B8 /* complete_normal.wav */; };
+		B0ADEC732048E46A005CBEAF /* enter_name_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0ADEC702048E46A005CBEAF /* enter_name_01.wav */; };
+		B0ADEC742048E46A005CBEAF /* enter_name_03.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0ADEC712048E46A005CBEAF /* enter_name_03.wav */; };
+		B0ADEC752048E46A005CBEAF /* enter_name_02.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0ADEC722048E46A005CBEAF /* enter_name_02.wav */; };
+		B0ADEC772048E493005CBEAF /* menu_position.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0ADEC762048E493005CBEAF /* menu_position.wav */; };
+		B0ADEC792048E4B3005CBEAF /* text_size.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0ADEC782048E4B3005CBEAF /* text_size.wav */; };
+		B0ADEC7B2048E4CD005CBEAF /* menu_color.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0ADEC7A2048E4CD005CBEAF /* menu_color.wav */; };
+		B0ADEC7D2048E4E6005CBEAF /* is_outlined.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0ADEC7C2048E4E5005CBEAF /* is_outlined.wav */; };
 		B0AF15E32036A0E60026E9E8 /* welcome_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0AF15E22036A0E60026E9E8 /* welcome_background.png */; };
 		B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */; };
 		B0CE12D12034F5ED00A3877B /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE12BD2034F5EA00A3877B /* Lato-Heavy.ttf */; };
@@ -67,11 +74,11 @@
 /* Begin PBXFileReference section */
 		B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name_fail.wav; sourceTree = "<group>"; };
 		B00F7D302036BCC600D3E190 /* TextSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeViewController.swift; sourceTree = "<group>"; };
-		B00F7D322036C5AF00D3E190 /* text_size.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = text_size.wav; sourceTree = "<group>"; };
+		B00F7D322036C5AF00D3E190 /* text_size [OLD].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "text_size [OLD].wav"; sourceTree = "<group>"; };
 		B00F7D3420378C3C00D3E190 /* MenuPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPositionViewController.swift; sourceTree = "<group>"; };
-		B00F7D36203791D600D3E190 /* menu_position.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu_position.wav; sourceTree = "<group>"; };
+		B00F7D36203791D600D3E190 /* menu_position [OLD].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "menu_position [OLD].wav"; sourceTree = "<group>"; };
 		B00F7D382037944C00D3E190 /* MenuColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuColorViewController.swift; sourceTree = "<group>"; };
-		B00F7D3A20379FD100D3E190 /* menu_color.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu_color.wav; sourceTree = "<group>"; };
+		B00F7D3A20379FD100D3E190 /* menu_color [OLD].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "menu_color [OLD].wav"; sourceTree = "<group>"; };
 		B00F7D3C20389A9700D3E190 /* ButtonColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColorViewController.swift; sourceTree = "<group>"; };
 		B00F7D3E20389F7700D3E190 /* TextColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColorViewController.swift; sourceTree = "<group>"; };
 		B00F7D402038A21800D3E190 /* button_color.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button_color.wav; sourceTree = "<group>"; };
@@ -79,7 +86,7 @@
 		B00F7D442038AD9700D3E190 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
 		B00F7D462039043D00D3E190 /* AudioSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSpeedViewController.swift; sourceTree = "<group>"; };
 		B00F7D4820390B1A00D3E190 /* audio_speed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_speed.wav; sourceTree = "<group>"; };
-		B00F7D4920390B1A00D3E190 /* is_outlined.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = is_outlined.wav; sourceTree = "<group>"; };
+		B00F7D4920390B1A00D3E190 /* is_outlined [OLD].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "is_outlined [OLD].wav"; sourceTree = "<group>"; };
 		B0120DF6203A339F0045545C /* Elderface Dialogue.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Elderface Dialogue.rtf"; sourceTree = "<group>"; };
 		B01BA0F3203923BD00F83755 /* audio_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_icon.png; sourceTree = "<group>"; };
 		B01BA0F520392D7700F83755 /* audio_fast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_fast.wav; sourceTree = "<group>"; };
@@ -87,12 +94,19 @@
 		B01BA0F720392D7700F83755 /* audio_slow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_slow.wav; sourceTree = "<group>"; };
 		B01BA0FB203A0BE400F83755 /* ElderfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderfaceViewController.swift; sourceTree = "<group>"; };
 		B025147A203697B80028D3FB /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
-		B05B5CE32036B4DE00391C5B /* enter_name.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name.wav; sourceTree = "<group>"; };
+		B05B5CE32036B4DE00391C5B /* enter_name [OLD].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "enter_name [OLD].wav"; sourceTree = "<group>"; };
 		B05B5CE42036B4DE00391C5B /* welcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welcome.wav; sourceTree = "<group>"; };
 		B098C7D120361161001F3316 /* ElderfaceFieldValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderfaceFieldValues.swift; sourceTree = "<group>"; };
 		B0A91AD7203A2AE100DD41B8 /* complete_fast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete_fast.wav; sourceTree = "<group>"; };
 		B0A91AD8203A2AE100DD41B8 /* complete_slow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete_slow.wav; sourceTree = "<group>"; };
 		B0A91AD9203A2AE200DD41B8 /* complete_normal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete_normal.wav; sourceTree = "<group>"; };
+		B0ADEC702048E46A005CBEAF /* enter_name_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name_01.wav; sourceTree = "<group>"; };
+		B0ADEC712048E46A005CBEAF /* enter_name_03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name_03.wav; sourceTree = "<group>"; };
+		B0ADEC722048E46A005CBEAF /* enter_name_02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enter_name_02.wav; sourceTree = "<group>"; };
+		B0ADEC762048E493005CBEAF /* menu_position.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu_position.wav; sourceTree = "<group>"; };
+		B0ADEC782048E4B3005CBEAF /* text_size.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = text_size.wav; sourceTree = "<group>"; };
+		B0ADEC7A2048E4CD005CBEAF /* menu_color.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu_color.wav; sourceTree = "<group>"; };
+		B0ADEC7C2048E4E5005CBEAF /* is_outlined.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = is_outlined.wav; sourceTree = "<group>"; };
 		B0AF15E22036A0E60026E9E8 /* welcome_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_background.png; sourceTree = "<group>"; };
 		B0CE12BC2034F5EA00A3877B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		B0CE12BD2034F5EA00A3877B /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
@@ -217,16 +231,23 @@
 		B0CE12E52034FC2A00A3877B /* Instructions */ = {
 			isa = PBXGroup;
 			children = (
-				B05B5CE32036B4DE00391C5B /* enter_name.wav */,
+				B05B5CE32036B4DE00391C5B /* enter_name [OLD].wav */,
+				B0ADEC702048E46A005CBEAF /* enter_name_01.wav */,
+				B0ADEC722048E46A005CBEAF /* enter_name_02.wav */,
+				B0ADEC712048E46A005CBEAF /* enter_name_03.wav */,
 				B05B5CE42036B4DE00391C5B /* welcome.wav */,
 				B00F7D2E2036B9A200D3E190 /* enter_name_fail.wav */,
-				B00F7D322036C5AF00D3E190 /* text_size.wav */,
-				B00F7D36203791D600D3E190 /* menu_position.wav */,
-				B00F7D3A20379FD100D3E190 /* menu_color.wav */,
+				B0ADEC782048E4B3005CBEAF /* text_size.wav */,
+				B00F7D322036C5AF00D3E190 /* text_size [OLD].wav */,
+				B0ADEC762048E493005CBEAF /* menu_position.wav */,
+				B00F7D36203791D600D3E190 /* menu_position [OLD].wav */,
+				B0ADEC7A2048E4CD005CBEAF /* menu_color.wav */,
+				B00F7D3A20379FD100D3E190 /* menu_color [OLD].wav */,
 				B00F7D402038A21800D3E190 /* button_color.wav */,
 				B00F7D412038A21800D3E190 /* text_color.wav */,
 				B00F7D4820390B1A00D3E190 /* audio_speed.wav */,
-				B00F7D4920390B1A00D3E190 /* is_outlined.wav */,
+				B0ADEC7C2048E4E5005CBEAF /* is_outlined.wav */,
+				B00F7D4920390B1A00D3E190 /* is_outlined [OLD].wav */,
 				B01BA0F520392D7700F83755 /* audio_fast.wav */,
 				B01BA0F620392D7700F83755 /* audio_normal.wav */,
 				B01BA0F720392D7700F83755 /* audio_slow.wav */,
@@ -381,22 +402,26 @@
 				B0A91ADA203A2AE200DD41B8 /* complete_fast.wav in Resources */,
 				B0CE12D12034F5ED00A3877B /* Lato-Heavy.ttf in Resources */,
 				B0CE12DF2034F5ED00A3877B /* Lato-Medium.ttf in Resources */,
+				B0ADEC772048E493005CBEAF /* menu_position.wav in Resources */,
 				B0A91ADC203A2AE200DD41B8 /* complete_normal.wav in Resources */,
 				B0CE12DD2034F5ED00A3877B /* Lato-HeavyItalic.ttf in Resources */,
 				B0EFC286202140FD006569E5 /* LaunchScreen.storyboard in Resources */,
 				B01BA0F920392D7800F83755 /* audio_normal.wav in Resources */,
 				B00F7D4A20390B1A00D3E190 /* audio_speed.wav in Resources */,
+				B0ADEC792048E4B3005CBEAF /* text_size.wav in Resources */,
 				B0CE12D22034F5ED00A3877B /* Lato-HairlineItalic.ttf in Resources */,
 				B0CE12D52034F5ED00A3877B /* Lato-BoldItalic.ttf in Resources */,
+				B0ADEC7B2048E4CD005CBEAF /* menu_color.wav in Resources */,
 				B0A91ADB203A2AE200DD41B8 /* complete_slow.wav in Resources */,
 				B0CE12DB2034F5ED00A3877B /* README.txt in Resources */,
 				B0EFC283202140FD006569E5 /* Assets.xcassets in Resources */,
-				B00F7D332036C5AF00D3E190 /* text_size.wav in Resources */,
+				B00F7D332036C5AF00D3E190 /* text_size [OLD].wav in Resources */,
 				B0CE12DC2034F5ED00A3877B /* Lato-Hairline.ttf in Resources */,
 				B0CE12D92034F5ED00A3877B /* Lato-BlackItalic.ttf in Resources */,
 				B01BA0F4203923BE00F83755 /* audio_icon.png in Resources */,
-				B00F7D37203791D600D3E190 /* menu_position.wav in Resources */,
+				B00F7D37203791D600D3E190 /* menu_position [OLD].wav in Resources */,
 				B00F7D2F2036B9A200D3E190 /* enter_name_fail.wav in Resources */,
+				B0ADEC7D2048E4E6005CBEAF /* is_outlined.wav in Resources */,
 				B00F7D432038A21900D3E190 /* text_color.wav in Resources */,
 				B0CE12E02034F5ED00A3877B /* Lato-Italic.ttf in Resources */,
 				B0CE12D82034F5ED00A3877B /* Lato-Semibold.ttf in Resources */,
@@ -405,20 +430,23 @@
 				B0CE12DA2034F5ED00A3877B /* Lato-Bold.ttf in Resources */,
 				B0EFC281202140FD006569E5 /* Main.storyboard in Resources */,
 				B0CE12E22034F5ED00A3877B /* Lato-Thin.ttf in Resources */,
+				B0ADEC732048E46A005CBEAF /* enter_name_01.wav in Resources */,
 				B0AF15E32036A0E60026E9E8 /* welcome_background.png in Resources */,
+				B0ADEC752048E46A005CBEAF /* enter_name_02.wav in Resources */,
 				B0CE12D42034F5ED00A3877B /* Lato-MediumItalic.ttf in Resources */,
 				B01BA0F820392D7800F83755 /* audio_fast.wav in Resources */,
 				B0CE12D72034F5ED00A3877B /* Lato-ThinItalic.ttf in Resources */,
 				B0CE12D62034F5ED00A3877B /* Lato-Regular.ttf in Resources */,
 				B0120DF7203A339F0045545C /* Elderface Dialogue.rtf in Resources */,
-				B00F7D4B20390B1A00D3E190 /* is_outlined.wav in Resources */,
+				B00F7D4B20390B1A00D3E190 /* is_outlined [OLD].wav in Resources */,
 				B05B5CE62036B4DE00391C5B /* welcome.wav in Resources */,
+				B0ADEC742048E46A005CBEAF /* enter_name_03.wav in Resources */,
 				B00F7D422038A21900D3E190 /* button_color.wav in Resources */,
-				B00F7D3B20379FD100D3E190 /* menu_color.wav in Resources */,
+				B00F7D3B20379FD100D3E190 /* menu_color [OLD].wav in Resources */,
 				B0CE12D02034F5ED00A3877B /* Lato-LightItalic.ttf in Resources */,
 				B0CE12D32034F5ED00A3877B /* Lato-Light.ttf in Resources */,
 				B0CE12E12034F5ED00A3877B /* Lato-SemiboldItalic.ttf in Resources */,
-				B05B5CE52036B4DE00391C5B /* enter_name.wav in Resources */,
+				B05B5CE52036B4DE00391C5B /* enter_name [OLD].wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
