@@ -62,6 +62,39 @@ class TextColorViewController: UIViewController {
         buttonPurple.backgroundColor = userElderface.menuButtonColor
         buttonGray.backgroundColor = userElderface.menuButtonColor
         buttonOrange.backgroundColor = userElderface.menuButtonColor
+        // Hiding bad options
+        if (userElderface.menuButtonColor == UIColor.black) {
+            buttonBlack.isHidden = true
+            buttonPurple.isHidden = true
+            buttonGray.isHidden = true
+        }
+        if (userElderface.menuButtonColor == UIColor.red) {
+            buttonRed.isHidden = true
+            buttonMagenta.isHidden = true
+            buttonGray.isHidden = true
+        }
+        if (userElderface.menuButtonColor == UIColor.blue) {
+            buttonBlack.isHidden = true
+            buttonPurple.isHidden = true
+        }
+        if (userElderface.menuButtonColor == UIColor.green) {
+            buttonGreen.isHidden = true
+        }
+        if (userElderface.menuButtonColor == UIColor.magenta) {
+            buttonMagenta.isHidden = true
+            buttonRed.isHidden = true
+            buttonGray.isHidden = true
+        }
+        if (userElderface.menuButtonColor == UIColor.purple) {
+            buttonPurple.isHidden = true
+        }
+        if (userElderface.menuButtonColor == UIColor.gray) {
+            buttonGray.isHidden = true
+            buttonBlue.isHidden = true
+        }
+        if (userElderface.menuButtonColor == UIColor.white) {
+            buttonOrange.isHidden = true
+        }
     }
     
     // Prepare segue

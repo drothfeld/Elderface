@@ -688,7 +688,15 @@ T</string>
                         <viewLayoutGuide key="safeArea" id="pKj-nO-fdz"/>
                     </view>
                     <connections>
+                        <outlet property="blackButton" destination="ItI-zY-Yvd" id="ors-fn-AOB"/>
+                        <outlet property="blueButton" destination="6yp-fK-ovf" id="faQ-MH-5iT"/>
+                        <outlet property="grayButton" destination="8a2-Qf-QDF" id="0ak-rP-PlJ"/>
+                        <outlet property="greenButton" destination="dBL-Cs-KBs" id="0fA-ZS-zNn"/>
+                        <outlet property="magentaButton" destination="E3N-UW-21y" id="Sxw-db-cfJ"/>
                         <outlet property="menuColorLayer" destination="DaX-Dh-Bxh" id="c5e-lm-36z"/>
+                        <outlet property="purpleButton" destination="E1b-ZJ-Wvd" id="Ps2-7z-txt"/>
+                        <outlet property="redButton" destination="I4H-Pa-LXQ" id="oEc-7h-zwb"/>
+                        <outlet property="whiteButton" destination="ODe-oW-uWR" id="GzV-8j-Zl7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4C-KM-HR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1709,11 +1717,11 @@ T</string>
     <inferredMetricsTieBreakers>
         <segue reference="3U1-Jb-0T3"/>
         <segue reference="rNN-WT-HdB"/>
-        <segue reference="Tac-gC-VKf"/>
+        <segue reference="Keh-qx-LpM"/>
         <segue reference="aIR-cK-k9V"/>
         <segue reference="8JO-AB-0oT"/>
         <segue reference="ZIk-qK-USR"/>
-        <segue reference="f5w-tK-JJ2"/>
+        <segue reference="GdH-7L-Mnw"/>
         <segue reference="lvd-Da-AKF"/>
         <segue reference="PEK-dF-pxk"/>
     </inferredMetricsTieBreakers>

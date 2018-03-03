@@ -12,6 +12,14 @@ import AVFoundation
 class ButtonColorViewController: UIViewController {
     // UI Elements
     @IBOutlet weak var menuColorLayer: UIImageView!
+    @IBOutlet weak var blackButton: UIButton!
+    @IBOutlet weak var redButton: UIButton!
+    @IBOutlet weak var blueButton: UIButton!
+    @IBOutlet weak var greenButton: UIButton!
+    @IBOutlet weak var magentaButton: UIButton!
+    @IBOutlet weak var purpleButton: UIButton!
+    @IBOutlet weak var grayButton: UIButton!
+    @IBOutlet weak var whiteButton: UIButton!
     
     // Controller Elements
     var userElderface: Elderface! = nil
@@ -44,6 +52,30 @@ class ButtonColorViewController: UIViewController {
     // Setup interface based on elderface values
     func elderfaceSetup() {
         menuColorLayer.backgroundColor = userElderface.menuColor
+        if (userElderface.menuColor == UIColor.black) {
+            blackButton.isHidden = true
+        }
+        if (userElderface.menuColor == UIColor.red) {
+            redButton.isHidden = true
+            magentaButton.isHidden = true
+        }
+        if (userElderface.menuColor == UIColor.blue) {
+            blackButton.isHidden = true
+            purpleButton.isHidden = true
+        }
+        if (userElderface.menuColor == UIColor.green) {
+            greenButton.isHidden = true
+        }
+        if (userElderface.menuColor == UIColor.magenta) {
+            magentaButton.isHidden = true
+            redButton.isHidden = true
+        }
+        if (userElderface.menuColor == UIColor.purple) {
+            purpleButton.isHidden = true
+        }
+        if (userElderface.menuColor == UIColor.white) {
+            whiteButton.isHidden = true
+        }
     }
     
     // Prepare segue
